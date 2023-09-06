@@ -1,0 +1,162 @@
+{
+    "Phone": [
+        {
+            "name": "Fujitsu arrows 5G F-51A",
+            "use": "メイン機",
+            "description": "5G mmWave対応の日本製Qualcommリファレンス機",
+            "details": "/posts/arrows5g"
+        },
+
+        {
+            "name": "Apple iPhone SE (2nd Generation)",
+            "use":"サブ機",
+            "description": "「声を分離」使って通話したい時やごろ寝コンテンツ視聴に使用中。",
+            "details": "/posts/iphonese2/"
+        },
+        {
+            "name": "BALMUDA Phone A101BM",
+            "use": "飯カメラ",
+            "description": "「味わい深い」一台",
+            "details": "/posts/balmudaphone"
+        },
+        {
+            "name": "P-UP Mode-1 Grip",
+            "use": "リモコン",
+            "description": "縦長で見やすい赤外線ブラスター搭載コンパクト機",
+            "details": "/posts/mode1grip"
+        },
+        {
+            "name": "Google Pixel 6",
+            "use": "開発ボード",
+            "description": "ケースとフィルム無しで200g超えてくるGoogle純正スマホ",
+            "details": "/posts/pixel6/"
+        },  
+        {
+            "name": "FCNT arrows We A101FC",
+            "use":"テザリング機",
+            "description": "よくできたローエンド",
+            "details": "/posts/arrowswe"
+        },
+        {
+            "name": "Apple iPhone 5c",
+            "use":"DAP",
+            "description": "ずっと欲しかった水色がイオシスで¥1,980だったので即買いした後、Apple Music使えるのでDAPとして使用中。",
+            "details": "/posts/iphone5c/"
+        }
+    ],
+    "Tablet": [
+        
+        {
+            "name": "Apple iPad (9th Generation)",
+            "use":"主に大学用",
+            "description": "iPad OSであることと第1世代 Apple Pencil、Lightning(これが最大の不満)を除けばとてもいいタブレット。",
+            "details": "/posts/ipad9th"
+        },
+        {
+            "name": "arrows Tab F-04H",
+            "use":"テレビ",
+            "description": "プリキュアリアタイしたくてもテレビがなかったので購入。有機ELが綺麗で大満足",
+            "details": "/posts/ipad9th"
+        }
+    ],
+    "PC": [
+        
+        {
+            "name": "Apple MacBook Air (M1, 2020)",
+            "use":"メイン機",
+            "description": "USBーC二つしかないのと、1.29kgで軽いって言ってること以外不満なし。",
+            "details": "/posts/macbook_air_m1/"
+        },
+        {
+            "name": "Microsoft Surface Go2 (Core-M)",
+            "use":"サブ機",
+            "description": "WindowsとかWSLとか使いたい時に。画面の色がとても綺麗なのは感動もの。",
+            "details": "/posts/surface_go2/"
+        }
+    ],
+    "POS": [
+        
+        {
+            "name": "SUNMI V1s",
+            "use":"レシートプリンタ",
+            "description": "これで名刺印刷するといろんな反応見れていいですね。慣れないReact Nativeにブチギレまくりながらビルドした甲斐があります。",
+            "details": "/posts/sunmiv1s/"
+        }
+    ],
+    "Audio": [
+        {
+            "name": "TASCAM US-1x2HR",
+            "use": "オーディオ I/F",
+            "description": "シンプルで操作しやすい上に音質も良くて気に入っています。",
+            "details": ""
+        },
+        {
+            "name": "Shanling UA3",
+            "use": "DAC",
+            "description": "音の粒がはっきりしていて好きです。低音を強調する感じじゃないのも良い。",
+            "details": ""
+        },
+        {
+            "name": "SONY MDR-900ST",
+            "use": "メインヘッドフォン",
+            "description": "ベースを始めるにあたって購入。デスクでメインとして使用。",
+            "details": ""
+        },  
+        {
+            "name": "KOSS PortaPro",
+            "use": "ポータブルヘッドフォン",
+            "description": "EarPodsとかLinkBudsは耳に入らないので貴重な開放型。主に街ブラの時やロック聴くときに使用。",
+            "details": ""
+        },  
+        {
+            "name": "SATOLEX Tsumuri",
+            "use": "イヤホン",
+            "description": "中〜低音がしっかりしながらも高音が刺さらない程度に出ることと、音の「見通し」が良いイヤホン",
+            "details": ""
+        },
+        {
+            "name": "Moondrop Quarks",
+            "use": "イヤホン",
+            "description": "透明でApple ProSpeakersみたいなデザインが気に入って購入。主にEDM聴くときに使用。",
+            "details": ""
+        }
+    ],
+    "Peripheral": [
+        {
+            "name": "Apple Keyboard A1243",
+            "use":"キーボード",
+            "description": "「パチパチ」とした打鍵感とデザインが気に入りました。実は二つストックしてたり。",
+            "details": ""
+        },
+        {
+            "name": "Lenovo ThinkPad keyboard",
+            "use":"キーボード",
+            "description": "中学生時代から愛用。US配列なのとThinkPad特有の打ち心地が好み。",
+            "details": ""
+        },
+        {
+            "name": "UGreen 7-in-1 USB-C Hub",
+            "use":"USBハブ",
+            "description": "HDMIと充電用USB-C、キーボード、HDDを同時接続可能なUSBハブ",
+            "details": ""
+        },
+        {
+            "name": "Apple Super Drive (A1379)",
+            "use":"CD/DVDドライブ",
+            "description": "実はBootCamp用ドライブを入れるとWindowsでも使用可能。",
+            "details": ""
+        },
+        {
+            "name": "Apple Pencil (1st Generation)",
+            "use":"スタイラスペン",
+            "description": "純正であること以外は微妙。",
+            "details": ""
+        },
+        {
+            "name": "Surface Pen",
+            "use":"スタイラスペン",
+            "description": "Apple Pencil (1st Generation)よりはビルドクオリティいいしUXもいいけどペン先ふにゃふにゃすぎ。",
+            "details": ""
+        }
+    ]
+    }

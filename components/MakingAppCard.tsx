@@ -98,10 +98,7 @@ function MakingAppList({ list }: MakingAppListProps) {
 // プラットフォームのアイコンと名前の配列をつくる
 const APP_NAME_TO_ICON_LIST: PlatformData[] = [
     { name: "android", icon: <AndroidIcon /> },
-    { name: "web", icon: <WebIcon /> },
-    { name: "akashic", icon: <VideoGameAssetIcon /> },
-    { name: "minecraft", icon: <GridIcon /> },
-    { name: "windows", icon: <LaptopIcon /> }
+    { name: "web", icon: <WebIcon /> }
 ]
 
 /** MakingAppData へ渡すデータ */

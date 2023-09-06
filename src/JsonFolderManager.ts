@@ -1,6 +1,7 @@
 import fs from 'fs/promises'
 import LinkData from './data/LinkData'
 import { MakingAppData, MakingAppDetailData } from './data/MakingAppData'
+import {EquipmentsData, EquipmentDetailData} from './data/EquipmentsData'
 
 /** 
  * ContentFolderManager の JSONフォルダ版 
@@ -14,6 +15,7 @@ class JsonFolderManager {
     /** 作ったアプリJSONのファイル名 */
     static JSON_MAKING_APP_FILE_NAME = `making_app.json`
 
+    static JSON_EQUIPMENTS_FILE_NAME = 'equipments.json'
     /** 一言メッセージJSONのファイル名 */
     static JSON_RANDOM_MESSAGE_FILE_NAME = `random_message.json`
 
@@ -40,6 +42,18 @@ class JsonFolderManager {
         const randomMessageJSON = await this.readTextFile(`${this.JSON_FOLDER_PATH}/${this.JSON_RANDOM_MESSAGE_FILE_NAME}`)
         const json = JSON.parse(randomMessageJSON)
         return json["random_message"] as Array<string>
+    }
+
+    static async getEquipmentsMap() {
+        const equipmentsJSON = await this.readTextFile(`${this.JSON_FOLDER_PATH}/${this.JSON_EQUIPMENTS_FILE_NAME}`)
+        const json = JSON.parse(equipmentsJSON)
+        return Object.keys(json).map((key) => {
+            const categoryData: EquipmentsData = {
+                categoryName: key,
+                equipmentsList: json[key] as Array<EquipmentDetailData>
+            }
+            return categoryData
+        })
     }
 
     /**

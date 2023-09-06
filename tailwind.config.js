@@ -38,19 +38,19 @@ module.exports = {
           // プライマリーカラー
           primary: {
             // md_theme_light_primary
-            light: '#4A58A9',
-            dark: '#BBC3FF'
+            light: '#0f4c81',
+            dark: '#a3cef4'
           },
           // セカンダリーカラー
           secondary: {
             // md_theme_light_secondary
-            light: '#974068',
-            dark: '#974068'
+            light: '#0e497c',
+            dark: '#0e497c'
           },
           // 文字
           text: {
             // md_theme_dark_background : md_theme_light_background
-            light: '#1B1B1F',
+            light: '#1B1B1',
             dark: '#FEFBFF'
           }
         },
@@ -66,8 +66,8 @@ module.exports = {
           // セカンダリーカラー
           secondary: {
             // md_theme_light_surface : md_theme_dark_surface の RGB それぞれに 0.95 倍したもの。カラーコード 明るさ とかで検索
-            light: '#f2eef2',
-            dark: '#19191d'
+            light: '#1b1b1f',
+            dark: '#fefbff'
           }
         },
 
@@ -81,14 +81,14 @@ module.exports = {
         // 背景色
         background: {
           // md_theme_light_primaryContainer
-          light: '#DEE0FF',
+          light: '#d6e9fa',
           dark: '#000000'
         },
 
         // 選択時の色（ホバー）
         hover: {
           // md_theme_light_primary の 25% の色。16進数なので 40 です（RGBA）
-          light: '#4A58A940',
+          light: '#0f4c8140',
           dark: '#BBC3FF40'
         },
       },

@@ -1,7 +1,7 @@
 {
-    "name": "たくさんの自由帳",
-    "short_name": "たくさんの自由帳",
-    "description": "Androidのお話",
+    "name": "はまちのホムペ",
+    "short_name": "はまちのホムペ",
+    "description": "いろいろ",
     "icons": [
         {
             "src": "/icon.png",
@@ -11,11 +11,11 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#4559a9",
-    "theme_color": "#4559a9",
+    "background_color": "#d6e9fa",
+    "theme_color": "#d6e9fa",
     "lang": "ja",
-    "title": "たくさんの自由帳",
-    "og:title": "たくさんの自由帳",
+    "title": "はまちのホムペ",
+    "og:title": "はまちのホムペ",
     "shortcuts": [
         {
             "name": "記事一覧",

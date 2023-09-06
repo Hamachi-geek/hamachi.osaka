@@ -1,29 +1,34 @@
 {
     "link": [
         {
-            "name": "Misskey",
-            "description": "@takusan_23@diary.negitoro.dev",
-            "href": "https://diary.negitoro.dev/@takusan_23"
+            "name": "X",
+            "description": "@Go2eatnow",
+            "href": "https://twitter.com/Go2eatnow"
         },
         {
             "name": "GitHub",
-            "description": "takusan_23",
-            "href": "https://github.com/takusan23"
+            "description": " Hamachi-geek",
+            "href": "https://github.com/Hamachi-geek"
+        },
+        {
+            "name": "Mastodon",
+            "description": "@hamachi@mstdn.y-zu.org",
+            "href": "https://mstdn.y-zu.org/@hamachi"
+        },
+        {
+            "name": "Misskey",
+            "description": "@Go2eatnow@misskey.io",
+            "href": "https://misskey.io/@Go2eatnow"
+        },
+        {
+            "name": "ryutoto.com",
+            "description": "noguchi ryutotoの雑感雑記",
+            "href": "https://www.ryutoto.com/"
         },
         {
             "name": "このサイトのソースコード",
             "description": "ziyuutyou-next",
-            "href": "https://github.com/takusan23/ziyuutyou-next"
-        },
-        {
-            "name": "Twitter",
-            "description": "@takusan__23",
-            "href": "https://twitter.com/takusan__23"
-        },
-        {
-            "name": "Email",
-            "description": "takusan_0913@yahoo.co.jp",
-            "href": "mailto:takusan_0913@yahoo.co.jp"
+            "href": "https://github.com/Hamachi-geek/ziyuutyou-next"
         }
     ]
 }
