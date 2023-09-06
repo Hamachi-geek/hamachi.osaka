@@ -9,9 +9,6 @@ import RoundedCornerList from "./RoundedCornerList"
 import IconParent from "./IconParent"
 import AndroidIcon from "../public/icon/android.svg"
 import WebIcon from "../public/icon/web.svg"
-import VideoGameAssetIcon from "../public/icon/videogame_asset.svg"
-import GridIcon from "../public/icon/grid_view.svg"
-import LaptopIcon from "../public/icon/laptop_windows.svg"
 
 /** 名前とアイコンの型 */
 type PlatformData = {
