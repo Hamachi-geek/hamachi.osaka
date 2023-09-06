@@ -77,10 +77,10 @@ export default function NavigationDrawer() {
                 <RoundedImage src="/icon.png" />
                 <div className="flex flex-col text-content-text-light">
                     <p className="text-content-text-light dark:text-content-text-dark text-base">
-                        たくさんの自由帳
+                        はまちのホムペ
                     </p>
                     <p className="text-content-text-light dark:text-content-text-dark text-sm">
-                        Androidのお話
+                        いろいろ
                     </p>
                 </div>
             </div>

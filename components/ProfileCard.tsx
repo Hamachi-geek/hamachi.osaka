@@ -30,8 +30,8 @@ export default function ProfileCard({ randomMessageList }: ProfileCardProps) {
             <div className="flex flex-row items-center p-3">
                 <RoundedImage src="/icon.png" />
                 <div className="flex-col">
-                    <p className="text-content-text-light dark:text-content-text-dark text-base">たくさん</p>
-                    <p className="text-content-text-light dark:text-content-text-dark text-sm">@takusan_23</p>
+                    <p className="text-content-text-light dark:text-content-text-dark text-base">はまち</p>
+                    <p className="text-content-text-light dark:text-content-text-dark text-sm">@Go2eatnow</p>
                 </div>
             </div>
 

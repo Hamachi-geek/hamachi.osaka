@@ -1,0 +1,27 @@
+---
+title: FCNT arrows 5G
+created_at: 2023-01-08
+---
+
+# FCNT arrows 5G F-51A
+- Vendor: FCNT
+- Qualcomm Snapdragon 865 5G Platform
+- RAM: 8GB
+- Storage: 128GB UFS3.1
+- Screen: 6.7inch OLED (60Hz)
+- OS: Android 12 S
+- Camera
+  - Main:48MP (SONY IMX586)
+  - Ultra Wide:16MP (OmniVision OV16A10)
+  - Telephoto:8MP (OmniVision OV08A10)
+  - Selfie:32MP (OmniVision OV32A)
+- Frequency Band
+  - 5G:n78/n79/n257
+  - 4G:1/3/5/12/19/21/39/42
+  - 3G:1/5
+  - GSM:850/900/1,800/1,900 <br>
+  
+![F-51A](https://i.imgur.com/M6oGIlk.jpeg)
+
+# 概要
+メインスマホです。<br>Pixel6がかなり厳しい出来で、しばらくBALMUDA Phoneをメインで使っていましたがコンパクトでシンプルなのはいいのですが、どうしても役不足なところがあったのと、ミリ波対応端末が欲しいということで購入しました。高校時代に憧れていたのも理由。<br>こんなに大きくてハイエンド構成で尚且つ4000mAhの電池を積んでるのにも関わらず170gで収まっているあたりに技術力の高さを感じます。便利機能周りの作り込みも高評価。<br>そしてなんと言ってもミリ波対応Qualcommリファレンスデバイスという点で「オタクマインド」に火をつけてくれて、所有感が満たされるとともに使う歓びを感じられます。<br>デメリットとしては、国内外問わず他社バンドが弱すぎるところとガラケーみたいなダサい絵文字がいまだにシステムにロックインされているところですね。今後キャリアと端末の分離が進めば変わるんでしょうか？

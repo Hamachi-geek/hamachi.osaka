@@ -1,9 +1,10 @@
+"use client"
+
+import { ReactNode, useEffect, useState } from "react"
 import ComputerOutlined from "@mui/icons-material/ComputerOutlined"
 import List from "@mui/material/List"
 import ListItem from "@mui/material/ListItem"
 import IconButton from "@mui/material/IconButton"
-import React, { useEffect, useState } from "react"
-console.log
 import Spacer from "./Spacer"
 import RoundedCornerBox from "./RoundedCornerBox"
 import RoundedCornerList from "./RoundedCornerList"

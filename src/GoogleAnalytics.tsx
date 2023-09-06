@@ -14,9 +14,6 @@ import EnvironmentTool from './EnvironmentTool'
  * GA4 と UA を共存させる。GA4に移行しても良いんだけど、今までの記録が引き継がれないみたいなので...
  */
 
-/** Google アナリティクス (UA) の 測定ID */
-const UA_TRACKING_ID = EnvironmentTool.UA_TRACKING_ID
-
 /** Google アナリティクス (GA4) の 測定ID */
 const GA_TRACKING_ID = EnvironmentTool.GA_TRACKING_ID
 
@@ -33,9 +30,6 @@ const pageview = (url: string) => {
     if (isDevelopment) {
         return
     }
-    (window as any).gtag('config', UA_TRACKING_ID, {
-        page_path: url,
-    });
     (window as any).gtag('config', GA_TRACKING_ID, {
         page_path: url,
     });
@@ -58,7 +52,7 @@ export default function GoogleAnalytics() {
             {!isDevelopment && <>
                 <Script
                     strategy="afterInteractive"
-                    src={`https://www.googletagmanager.com/gtag/js?id=${UA_TRACKING_ID}`}
+                    src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
                 />
                 <Script
                     strategy="afterInteractive"
@@ -67,7 +61,6 @@ export default function GoogleAnalytics() {
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config', '${UA_TRACKING_ID}');
                         gtag('config', '${GA_TRACKING_ID}');
                     `}}
                 />
