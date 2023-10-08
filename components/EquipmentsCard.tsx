@@ -116,7 +116,7 @@ type EquipmentsCardProps = {
      * @param categoryName POSとか
      */
      const changeEquipmentsListPlatform = (categoryName: string) => {
-        const equipment = equipmentsList.find(platformObj => platformObj.categoryName === categoryName)
+        const equipment = equipmentsList.find(categoryObj => categoryObj.categoryName === categoryName)
         if (equipment) {
             setEquipmentsList(equipment.equipmentsList)
         }
