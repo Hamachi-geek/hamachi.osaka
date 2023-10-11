@@ -8,7 +8,7 @@
         {
             "name": "Fujitsu arrows 5G F-51A",
             "use": "サブ機",
-            "details": "/posts/arrows5g"
+            "details": "/posts/f51a"
         },
         {
             "name": "Apple iPhone SE (2nd Generation)",
@@ -36,7 +36,7 @@
         {
             "name": "arrows Tab F-04H",
             "use":"テレビ",
-            "details": "/posts/ipad9th"
+            "details": "/posts/f04h"
         }
     ],
     "PC": [
@@ -64,59 +64,32 @@
         {
             "name": "TASCAM US-1x2HR",
             "use": "オーディオ I/F",
-            "details": ""
+            "details": "/posts/us1x2hr/"
         },
         {
             "name": "Shanling UA3",
             "use": "DAC",
-            "details": ""
+            "details": "/posts/ua3/"
         },
         {
             "name": "SONY MDR-900ST",
             "use": "メインヘッドフォン",
-            "details": ""
+            "details": "/posts/mdr900st/"
         },  
         {
             "name": "KOSS PortaPro",
             "use": "ポータブルヘッドフォン",
-            "details": ""
+            "details": "/posts/portapro/"
         },  
         {
             "name": "SATOLEX Tsumuri",
             "use": "イヤホン",
-            "details": ""
+            "details": "/posts/tsumuri/"
         },
         {
             "name": "Moondrop Quarks",
             "use": "イヤホン",
-            "details": ""
-        }
-    ],
-    "Peripheral": [
-        {
-            "name": "Apple Keyboard A1243",
-            "use":"キーボード",
-            "details": ""
-        },
-        {
-            "name": "UGreen 7-in-1 USB-C Hub",
-            "use":"USBハブ",
-            "details": ""
-        },
-        {
-            "name": "Apple Super Drive (A1379)",
-            "use":"CD/DVDドライブ",
-            "details": ""
-        },
-        {
-            "name": "Apple Pencil (1st Generation)",
-            "use":"スタイラスペン",
-            "details": ""
-        },
-        {
-            "name": "Surface Pen",
-            "use":"スタイラスペン",
-            "details": ""
+            "details": "/posts/quarks/"
         }
     ]
     }

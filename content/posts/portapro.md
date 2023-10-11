@@ -1,6 +1,6 @@
 ---
 title: Google Pixel 6
-created_at: 2023-01-03
+created_at: 2023-10-11
 ---
 
 # Google Pixel 6
@@ -9,7 +9,7 @@ created_at: 2023-01-03
 - RAM: 8GB
 - Storage: 128GB UFS3.0
 - Screen: 6.4inch AMOLED
-- OS: Android 14 Up-Side-Down Cake
+- OS: Android 13 Tiramisu
 - Camera
   - Main:50MP (Samsung GN1)
   - Ultra Wide:12MP (SONY IMX386)
@@ -22,4 +22,4 @@ created_at: 2023-01-03
 ![GR1YH](https://i.imgur.com/PPGNbGk.jpeg)
 
 # 概要
-デカくて重い上にソフトウェアの出来もダメダメだったのでずっと机にしまってたんですが、最近は一気に改善されたのでメインにしています。とはいえ指紋センサーの精度や速度、先述した重さはどうしても不満です。
+デカくて重いので今はほぼ開発機ですね...<br>写真を撮ると端がぼやけたりちょっとしたバグが沢山あったりでフェードアウトしました。<br>とはいえバンドが広かったりコンピューテーショナルフォト、光学手ぶれ補正などメリットはあるので海外に行った時は大活躍します。

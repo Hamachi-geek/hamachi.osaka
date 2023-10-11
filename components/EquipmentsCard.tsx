@@ -99,9 +99,8 @@ type EquipmentsCardProps = {
         ["Tablet", <TabletOutlined/>],
         ["PC", <ComputerOutlined/>],
         ["POS", <PointOfSaleOutlined/>],
-        ["Audio", <MusicNoteOutlined/>],
-        ["Peripheral", <CableOutlined/>],
-    ])
+        ["Audio", <MusicNoteOutlined/>]
+        ])
 
     // JetpackComposeの remember { mutableStateOf(arrayOf()) } みたいな
     // 表示する所持品
