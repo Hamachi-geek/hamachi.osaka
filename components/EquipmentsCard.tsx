@@ -1,51 +1,55 @@
 "use client"
 
 import { ReactNode, useEffect, useState } from "react"
-import ComputerOutlined from "@mui/icons-material/ComputerOutlined"
-import List from "@mui/material/List"
-import ListItem from "@mui/material/ListItem"
-import IconButton from "@mui/material/IconButton"
 import Spacer from "./Spacer"
 import RoundedCornerBox from "./RoundedCornerBox"
 import RoundedCornerList from "./RoundedCornerList"
 import { EquipmentsData, EquipmentDetailData } from "../src/data/EquipmentsData"
-import { Box, ListItemIcon, ListItemText, useMediaQuery} from "@mui/material"
 import NextLinkButton from "./NextLinkButton"
-import { CableOutlined, MusicNoteOutlined, PhoneAndroidOutlined, PointOfSaleOutlined, TabletOutlined } from "@mui/icons-material"
+import IconParent from "./IconParent"
+import PhoneIcon from "../public/icon/phone.svg"
+import TabletIcon from "../public/icon/tablet.svg"
+import ComputerIcon from "../public/icon/computer.svg"
+import AudioIcon from "../public/icon/audio.svg"
+import POSIcon from "../public/icon/pos.svg"
 
-/** EquipmentRail へ渡すデータ */
+/** 名前とアイコンの型 */
+type CategoryData = {
+    /** プラットフォーム名。android とか */
+    name: string
+    /** アイコン */
+    icon: ReactNode
+}
+
+/** MakingAppNavigationRail へ渡すデータ */
 type EquipmentsNavigationRailProps = {
     /** プラットフォームの一覧とアイコンのMap */
-    categoryNameToIconMap: Map<string, JSX.Element>,
+    categoryNameToIconMap: CategoryData[],
     /** メニュー選択した際に呼ばれる。引数はandroidとかwebとかプラットフォームの名前 */
-    onMenuClick: (category: string) => void,
+    onMenuClick: (platform: string) => void,
 }
 
 /** カテゴリ一覧 NavigationRail */
-const EquipmentsNavigationRail: React.FC<EquipmentsNavigationRailProps> = (props) => {
-    const isMobileDevice = useMediaQuery("(max-width:600px)")
+function EquipmentsNavigation ({ categoryNameToIconMap, onMenuClick }: EquipmentsNavigationRailProps) {
     return (
-        <>
-            <Box>
-                <List>
-                    {/* Mapには Array#map がない？ */}
-                    {Array.from(props.categoryNameToIconMap).map(([text, iconElement]) => (
-                        <ListItem button key={text} onClick={() => props.onMenuClick(text)}>
-                            {!isMobileDevice ? (
-                                <>
-                                    <ListItemIcon>
-                                        {iconElement}
-                                    </ListItemIcon>
-                                    <ListItemText>
-                                        {text}
-                                    </ListItemText>
-                                </>
-                            ) : (<IconButton>{iconElement}</IconButton>)}
-                        </ListItem>
-                    ))}
-                </List>
-            </Box>
-        </>
+        <div className="flex flex-col space-y-3">
+            {
+                categoryNameToIconMap.map(({ name, icon }) => (
+                    <div
+                        className="flex flex-row items-center cursor-pointer p-2 rounded-xl hover:bg-hover-light dark:hover:bg-hover-dark"
+                        key={name}
+                        onClick={() => onMenuClick(name)}
+                    >
+                        <div className="sm:mr-2">
+                            <IconParent>
+                                {icon}
+                            </IconParent>
+                        </div>
+                        <p className="text-content-text-light dark:text-content-text-dark hidden sm:block">{name}</p>
+                    </div>
+                ))
+            }
+        </div>
     )
 }
 
@@ -84,6 +88,16 @@ type EquipmentsListProps = {
         />
     )
 }
+
+const CATEGORY_NAME_TO_ICON_LIST: CategoryData[] = [
+    { name: "Phone", icon: <PhoneIcon /> },
+    { name: "Tablet", icon: <TabletIcon /> },
+    { name: "PC", icon: <ComputerIcon /> },
+    { name: "POS", icon: <POSIcon /> },
+    { name: "Audio", icon: <AudioIcon /> }
+]
+
+
 /** EquipmentsData へ渡すデータ */
 type EquipmentsCardProps = {
     /** 所持品の配列 */
@@ -91,16 +105,6 @@ type EquipmentsCardProps = {
 }
 
 /** 所持品を表示してるところ */
-
-    // プラットフォームのアイコンと名前の配列をつくる
-   
-    const nameToIconMap = new Map([
-        ["Phone", <PhoneAndroidOutlined/>],
-        ["Tablet", <TabletOutlined/>],
-        ["PC", <ComputerOutlined/>],
-        ["POS", <PointOfSaleOutlined/>],
-        ["Audio", <MusicNoteOutlined/>]
-        ])
 
     // JetpackComposeの remember { mutableStateOf(arrayOf()) } みたいな
     // 表示する所持品
@@ -137,8 +141,8 @@ type EquipmentsCardProps = {
                     所持品
                 </h2>
                 <div className="flex flex-row py-2">
-                    <EquipmentsNavigationRail
-                        categoryNameToIconMap={nameToIconMap}
+                    <EquipmentsNavigation
+                        categoryNameToIconMap={CATEGORY_NAME_TO_ICON_LIST}
                         onMenuClick={categoryName => changeEquipmentsListPlatform(categoryName)}
                     />
                     <div className="flex flex-col grow px-2">
