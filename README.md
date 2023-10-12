@@ -1,7 +1,7 @@
 # ziyuutyou-next
-たくさんの自由帳 Next.js リメイク版
+たくさんの自由帳 Next.js リメイク版をベースにしたはまちのホムペです。
 
-[![Netlify Deploy](https://github.com/takusan23/ziyuutyou-next/actions/workflows/netlify-deploy.yml/badge.svg?branch=main)](https://github.com/takusan23/ziyuutyou-next/actions/workflows/netlify-deploy.yml)
+[![Netlify Deploy](https://github.com/takusan23/ziyuutyou-next/actions/workflows/netlify-deploy.yml/badge.svg?branch=main)](https://github.com/Hamachi-geek/ziyuutyou-next/actions/workflows/netlify-deploy.yml)
 
 ![Imgur](https://imgur.com/6N5X7yQ.png)
 
