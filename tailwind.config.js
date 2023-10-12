@@ -66,8 +66,8 @@ module.exports = {
           // セカンダリーカラー
           secondary: {
             // md_theme_light_surface : md_theme_dark_surface の RGB それぞれに 0.95 倍したもの。カラーコード 明るさ とかで検索
-            light: '#1b1b1f',
-            dark: '#fefbff'
+            light: '#FFFBFF',
+            dark: '#1b1b1f'
           }
         },
 
@@ -100,4 +100,3 @@ module.exports = {
   },
   plugins: [],
 }
-
