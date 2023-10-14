@@ -1,10 +1,14 @@
 ---
 title: TASCAM US-1x2HR
-created_at: 2023-10-11
+created_at: 2023-10-14
 ---
 
 # TASCAM US-1x2HR
 - Vendor: TASCAM
+- DAC Chip: CirrusLogic CS4272 
+- Format: 192kHz/24bit
+- Output: 6.3mm Balanced Stereo, RCA Stereo
+- Input: XLR Balannced MONO, 6.5mm Balanced MONO, RCA Stereo <br>
 ![GR1YH](https://i.imgur.com/PPGNbGk.jpeg)
 
 # 概要

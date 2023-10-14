@@ -1,25 +1,15 @@
 ---
-title: Google Pixel 6
-created_at: 2023-10-11
+title: SHANLING UA3
+created_at: 2023-10-14
 ---
 
-# Google Pixel 6
-- Vendor: Google
-- Google Tensor
-- RAM: 8GB
-- Storage: 128GB UFS3.0
-- Screen: 6.4inch AMOLED
-- OS: Android 13 Tiramisu
-- Camera
-  - Main:50MP (Samsung GN1)
-  - Ultra Wide:12MP (SONY IMX386)
-  - Selfie:8MP
-- Frequency Band
-  - 5G:n1/n2/n3/n5/n7/n8/n12/n14/n20/n25/n28/n30/n38/n40/n41/n48/n66/n71/n77/n78
-  - 4G:1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/29/30/32/38/39/40/41/42/46/48/66/71
-  - 3G:1/2/4/5/6/8/19
-  - GSM:850/900/1,800/1,900 <br>
+# SHANLING UA3
+- Vendor: SHANLING
+- DAC Chip: Asahi-KaseiAK4493SEQ
+- Amplifier: Ricore RT6863 x2
+- Format: 768kHz/32bit 22.4MHz DSD
+- Output: 3.5mm Stereo 4.4mm Balanced Stereo <br>
 ![GR1YH](https://i.imgur.com/PPGNbGk.jpeg)
 
 # 概要
-デカくて重いので今はほぼ開発機ですね...<br>写真を撮ると端がぼやけたりちょっとしたバグが沢山あったりでフェードアウトしました。<br>とはいえバンドが広かったりコンピューテーショナルフォト、光学手ぶれ補正などメリットはあるので海外に行った時は大活躍します。
+2022年末に結束バンドのCDを予約したので、「せっかく買ったし、ちょっとでもいい音で聴きたい！」と思い購入しました。<br>低音にも、高音にも偏らない正確な音で聴きやすく、音の粒がはっきりしていて自分好みです。アンプもしっかりしているためオーディオ機器のポテンシャルを引き出せています。
