@@ -35,7 +35,7 @@ export default async function Home() {
         <div className="flex flex-col space-y-5">
             <ProfileCard randomMessageList={randomMessageList} />
             <LinkCard linkList={linkList}/>
-            <EquipmentsCard equipmentList={equipmentsList}/>
+            <EquipmentsCard equipmentsList={equipmentsList}/>
             <MakingAppCard makingAppList={makingAppList} />
             <MutualLinkCard mutualLinkList={mutuallinkList}/>
         </div>
