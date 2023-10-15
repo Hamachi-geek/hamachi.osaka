@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import JsonFolderManager from "../src/JsonFolderManager";
 import ProfileCard from "../components/ProfileCard";
 import EnvironmentTool from "../src/EnvironmentTool";
+import MutualLinkCard from "../components/MutualLinkCard";
 import LinkCard from "../components/LinkCard";
 import EquipmentsCard from "../components/EquipmentsCard";
 import MakingAppCard from "../components/MakingAppCard";
@@ -19,11 +20,12 @@ export const metadata: Metadata = {
 export default async function Home() {
     // データを async/await を使って取得する
     // なんとなく並列にしてみた
-    const [randomMessageList, makingAppList, equipmentsList, linkList] = await Promise.all([
+    const [randomMessageList, makingAppList, equipmentsList, linkList, mutuallinkList] = await Promise.all([
         // ランダムメッセージ
         JsonFolderManager.getRandomMessageList(),
         // 作ったアプリ
         JsonFolderManager.getMakingAppMap(),
+        JsonFolderManager.getMutualLinkList(),
         JsonFolderManager.getEquipmentsMap(),
         // リンク集
         JsonFolderManager.getLinkList(),
@@ -32,6 +34,7 @@ export default async function Home() {
     return (
         <div className="flex flex-col space-y-5">
             <ProfileCard randomMessageList={randomMessageList} />
+            <MutualLinkCard mutuallinkList={mutuallinkList}/>
             <LinkCard linkList={linkList} />
             <EquipmentsCard equipmentsList={equipmentsList}/>
             <MakingAppCard makingAppList={makingAppList} />
