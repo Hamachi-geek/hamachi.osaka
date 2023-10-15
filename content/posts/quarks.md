@@ -6,9 +6,9 @@ created_at: 2023-10-14
 # Moondrop Quarks
 - Vendor: MOONDROP
 - Driver Unit: 6mm DD
-- Frequency Response Range: 4~43kHz
+- Frequency Response Range: 4Hz~43kHz
 <br>
-![GR1YH](https://i.imgur.com/PPGNbGk.jpeg)
+![Quarks](https://i.imgur.com/1LYlYrZ.jpg)
 
 # 概要
 以前使用していたFinal E3000Cがフィリピン滞在中に壊れたため、帰国後すぐeイヤホンで購入しました。<br>Apple ProSpeakersのようなスケルトンデザインに惹かれて買いました。<br>高音が強いイヤホンですが、低音も十分出ており、ズンズンくる感じがない分聞きやすいと感じます。定位感や分離感に関しても問題なく、人にお勧めできるイヤホンです。
