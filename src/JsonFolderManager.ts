@@ -16,7 +16,7 @@ class JsonFolderManager {
     /** 作ったアプリJSONのファイル名 */
     static JSON_MAKING_APP_FILE_NAME = `making_app.json`
 
-    static JSON_MUTUAL_LINK_FILE_NAME = `mutual_link.json`
+    static JSON_MUTUAL_LINK_FILE_NAME = 'mutual_link.json'
     static JSON_EQUIPMENTS_FILE_NAME = 'equipments.json'
     /** 一言メッセージJSONのファイル名 */
     static JSON_RANDOM_MESSAGE_FILE_NAME = `random_message.json`
@@ -36,8 +36,8 @@ class JsonFolderManager {
     }
 
     static async getMutualLinkList() {
-        const linkJSON = await this.readTextFile(`${this.JSON_FOLDER_PATH}/${this.JSON_LINK_FILE_NAME}`)
-        const json = JSON.parse(linkJSON)
+        const mutualLinkJSON = await this.readTextFile(`${this.JSON_FOLDER_PATH}/${this.JSON_MUTUAL_LINK_FILE_NAME}`)
+        const json = JSON.parse(mutualLinkJSON)
         return json["mutual_link"] as Array<MutualLinkData>
     }
 

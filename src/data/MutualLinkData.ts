@@ -2,7 +2,7 @@
 type MutualLinkData = {
     /** 名前 */
     name: string,
-    /** TwitterとかのID */
+    /** 説明 */
     description: string,
     /** リンク */
     href: string,

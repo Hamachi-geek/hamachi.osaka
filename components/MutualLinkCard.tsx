@@ -5,13 +5,13 @@ import RoundedCornerList from "./RoundedCornerList"
 import IconParent from "./IconParent"
 import OpenInBrowserIcon from "../public/icon/open_in_browser.svg"
 
-/** LinkCard へ渡すデータ */
+/** MutualLinkCard へ渡すデータ */
 type MutualLinkCardProps = {
     /** リンクのデータの配列 */
-    mutualLinkList:  MutualLinkData[]
+    mutualLinkList: MutualLinkData[]
 }
 
-/** リンク集を表示する部分 */
+/** 相互リンク集を表示する部分 */
 export default function MutualLinkCard({ mutualLinkList }: MutualLinkCardProps) {
     return (
         <RoundedCornerBox rounded="large">

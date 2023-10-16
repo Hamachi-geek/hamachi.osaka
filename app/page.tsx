@@ -25,17 +25,19 @@ export default async function Home() {
         JsonFolderManager.getRandomMessageList(),
         // 作ったアプリ
         JsonFolderManager.getMakingAppMap(),
+        // 所持品
         JsonFolderManager.getEquipmentsMap(),
+        // 相互リンク集
         JsonFolderManager.getMutualLinkList(),
         // リンク集
-        JsonFolderManager.getLinkList(),
+        JsonFolderManager.getLinkList()
     ])
 
     return (
         <div className="flex flex-col space-y-5">
             <ProfileCard randomMessageList={randomMessageList} />
-            <MutualLinkCard mutualLinkList={mutualLinkList}/>
             <LinkCard linkList={linkList} />
+            <MutualLinkCard mutualLinkList={mutualLinkList} />
             <EquipmentsCard equipmentsList={equipmentsList}/>
             <MakingAppCard makingAppList={makingAppList} />
         </div>
