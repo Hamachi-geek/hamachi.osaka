@@ -12,15 +12,9 @@ created_at: 2023-03-14
 ![iPad9th](https://i.imgur.com/8il82eC.jpeg)
 
 # 概要
-バイト代で初めて買ったものです。「声を分離」と超広角インカメラとそれを用いたフェイストラッキングがお気に入りです。イヤホンジャックがあるのも便利です。<br>
-<<<<<<< HEAD
-GoodNotes5をゴリゴリ使ったりアメリカの大学生協で購入したSmart Keyboardをつけて出先PC（のように）したりして大活躍中。友人との通話もこれで。先述した「声を分離」が助かります。<br>
-Lightning端子とApple Pencilが第1世代なのがものすごい不満ですが...
-=======
 GoodNotes5をゴリゴリ使ったり出先でMacのサブディスプレイにしたり大活躍中。友人との通話もこれで。先述した「声を分離」が助かります。<br>
 Lightning端子とApple Pencilが第1世代なのがものすごい不満ですが...
 
 # 周辺機器
 - Apple Smart Keyboard (US)
 - Apple Pencil (1st Generation)
->>>>>>> e59d8c7 (Periferal datas has been added.)
