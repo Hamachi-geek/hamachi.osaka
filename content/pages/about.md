@@ -1,55 +1,7 @@
 ---
 title: このサイトについて
-created_at: 2022-01-04
+created_at: 2023-10-24
 ---
-
-`JetpackCompose`に似てる`React`やってみたいなーって感じで`Next.js`で書き直しています。正月休み短いってば
-
-いやマジで`JetpackCompose`やん`React`。**CSSがダルい**以外で差があんまりない。
-
-```kotlin
-@Composable
-fun ExpandedText() {
-    var isExpanded by remember { mutableStateOf(false) }
-
-    Column {
-        Text(text = "Hello")
-        if (isExpanded) {
-            Text(text = "World")
-        }
-        Button(
-            onClick = { isExpanded = !isExpanded }
-        ) { Text(text = "Open!") }
-    }
-}
-```
-
-```tsx
-const ExpandedText = () => {
-    const [isExpanded, setExpanded] = useState(false)
-
-    return (
-        <>
-            <p>Hello</p>
-            {
-                isExpanded && <p>World</p>
-            }
-            <Button onClick={()=> setExpanded(!isExpanded)}>
-                Open!
-            </Button>
-        </>
-    )
-}
-
-export default ExpandedText
-```
-
-# このサイトについて
-普段はAndroidの記事を書いています。  
-**Next.js**の静的書き出し機能(SSG)を使ってこのサイトは出来ています。
-
-前のブログ(`Nuxt.js`)のソースコード→ https://github.com/takusan23/ziyuutyou  
-前の前のブログ(`Hexo`)→ https://takusan23.github.io/Bibouroku/
 
 # プライバシーポリシー
 
