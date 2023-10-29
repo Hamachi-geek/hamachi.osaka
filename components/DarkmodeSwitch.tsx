@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 import resolveConfig from "tailwindcss/resolveConfig"
 import tailwindConfig from "../tailwind.config.js"
 import IconParent from "./IconParent"
@@ -12,42 +12,49 @@ import DarkModeIcon from "../public/icon/dark_mode.svg"
  * @see https://tailwindcss.com/docs/dark-mode
  */
 export default function DarkmodeSwitch() {
-    const [isDarkmode, setDarkmode] = useState(false)
 
-    // ここでやるべきではないが、ついでに Android のステータスバーの色を適用する
-    const statusBarColorMeta = useRef<HTMLMetaElement>()
-
-    // 端末のテーマ設定をセットする
-    // TODO 責務的にここでやるべきではない
-    useEffect(() => {
-        // メディアクエリでダークモードかチェック
-        const isDarkmode = window.matchMedia('(prefers-color-scheme: dark)').matches
-        // すでに Tailwind CSS のダークモードが有効かどうか。サイズ変更したらリセットされちゃった
-        const isCurrentDarkmode = document.documentElement.classList.contains('dark')
-        setDarkmode(isDarkmode || isCurrentDarkmode)
-
-        // Android のステータスバーの色をセットする <meta>
-        statusBarColorMeta.current = document.createElement('meta')
-        statusBarColorMeta.current.setAttribute('name', 'theme-color')
-        document.head.append(statusBarColorMeta.current)
-    }, [])
-
-    // 切替時のイベント
-    useEffect(() => {
-        // Tailwind CSS はクラス名でテーマ切り替えする
+    /**
+     * Tailwind CSS とステータスバーの色をテーマ切り替え
+     * @param isDarkmode ダークモードなら true
+     */
+    function setTailwindThemeAndStatusBarColor(isDarkmode: boolean) {
+        // Tailwind CSS のテーマ
         if (isDarkmode) {
             document.documentElement.classList.add('dark')
         } else {
             document.documentElement.classList.remove('dark')
         }
-
-        // 動的に Tailwind CSS のテーマを取得して、ステータスバーの色にする
+        // 動的に Tailwind CSS のテーマを取得して
+        // ステータスバーの色にする
         const colors = resolveConfig(tailwindConfig).theme?.colors
         if (colors) {
             const backgroundColor = isDarkmode ? colors['background']['dark'] : colors['background']['light']
-            statusBarColorMeta.current?.setAttribute('content', backgroundColor)
+            document.querySelector("meta[name='theme-color']")?.setAttribute('content', backgroundColor)
         }
-    }, [isDarkmode])
+    }
+
+    const [isDarkmode, setDarkmode] = useState(false)
+
+    // 端末のテーマ設定をセットする
+    // TODO 責務的にここでやるべきではない
+    useEffect(() => {
+        // Android のステータスバーの色をセットする <meta name="theme-color"> が初回時は無いので作る
+        if (!document.querySelector("meta[name='theme-color']")) {
+            const metaElement = document.createElement('meta')
+            metaElement.setAttribute('name', 'theme-color')
+            document.head.append(metaElement)
+        }
+
+        // メディアクエリでダークモードかチェック
+        const isDarkmodeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches
+        // すでに Tailwind CSS のダークモードが有効かどうか。サイズ変更したらリセットされちゃった
+        const isTailwindDarkmode = document.documentElement.classList.contains('dark')
+
+        // ダークモード切り替えスイッチとテーマを反映させる
+        const isCurrentDarkMode = isDarkmodeMediaQuery || isTailwindDarkmode
+        setDarkmode(isCurrentDarkMode)
+        setTailwindThemeAndStatusBarColor(isCurrentDarkMode)
+    }, [])
 
     return (
         <label className="flex flex-row p-3 items-center select-none cursor-pointer">
