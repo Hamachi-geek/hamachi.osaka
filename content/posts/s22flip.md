@@ -15,8 +15,7 @@ created_at: 2023-10-11
   - Selfie:2MP(GC02M2)
 - Frequency Band
   - 4G:1/2/3/4/5/7/12/13/20/25/26/28/38/39/40/41/66/71
-  - 3G:1/2/4/5/8
-  - CDMA:BC0/BC1/BC10
+  - 3G:1/2/4/5/8/BC0/BC1/BC10
   - GSM:850/900/1,800/1,900 <br>
 ![S22 Flip](https://i.imgur.com/7Obzxfq.jpg)
 
