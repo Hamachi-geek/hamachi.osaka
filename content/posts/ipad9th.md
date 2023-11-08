@@ -8,7 +8,7 @@ created_at: 2023-03-14
 - RAM: 4GB
 - Storage: 64GB
 - Screen: 10.2inch IPS
-- OS: iPadOS 17.0.2 <br>
+- OS: iPadOS 17.1.1 <br>
 ![iPad9th](https://i.imgur.com/8il82eC.jpeg)
 
 # 概要

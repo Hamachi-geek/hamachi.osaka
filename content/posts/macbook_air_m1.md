@@ -8,7 +8,7 @@ created_at: 2023-01-08
 - RAM: 16GB
 - Storage: 512GB NVMe SSD
 - Screen: 13inch IPS
-- OS: macOS 14.0　Sonoma
+- OS: macOS 14.1.1　Sonoma
 - Vendor: Apple
   
 ![MBA](https://i.imgur.com/CMQivpq.jpeg)
