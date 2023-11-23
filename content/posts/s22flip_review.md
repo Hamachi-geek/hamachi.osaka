@@ -8,8 +8,8 @@ tags:
 - レビュー
 ---
 
-今回は以前開封したCAT S22Flipをレビューします。
-
+今回は以前開封したCAT S22Flipをレビューします。<br>
+[長期使用レビュー](https://hamachi.osaka/posts/s22flip_longterm/)
 # スペック
  - Qualcomm 215
  - RAM:2GB
