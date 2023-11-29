@@ -18,7 +18,7 @@ created_at: 2023-01-08
 
 # 周辺機器
 - Keyboard: Apple Keyboard A1243 (JP)
-- Mouse: Lenovo Laser Mouse MOBGULA
+- Mouse: Kensington SlimBlade Trackball
 - Display: iiyama ProLite XUB2793HSU
 - USB Hub: UGreen 7-in-1 USB Hub
 - Audio I/F: [TASCAM US-1x2HR](https://hamachi.osaka/posts/us1x2hr/)

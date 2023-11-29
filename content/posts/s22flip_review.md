@@ -4,12 +4,15 @@ created_at: 2023-04-25
 tags:
 - Android
 - 海外端末
-- ガラホ
-- レビュー
+- レビュー (Review)
+- ガラホ (Dumb Phone)
+- タフネス (Rugged Device)
 ---
 
 今回は以前開封したCAT S22Flipをレビューします。<br>
-[長期使用レビュー](https://hamachi.osaka/posts/s22flip_longterm/)
+[長期使用レビュー](https://hamachi.osaka/posts/s22flip_longterm/)<br>
+[English Version](https://hamachi.osaka/posts/s22flip_review_en/)
+
 # スペック
  - Qualcomm 215
  - RAM:2GB
