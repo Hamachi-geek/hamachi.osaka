@@ -14,15 +14,19 @@ tags:
 [English Version](https://hamachi.osaka/posts/s22flip_review_en/)
 
 # スペック
- - Qualcomm 215
- - RAM:2GB
- - ROM:16GB eMMC
- - Android 11 R
- - 2.5インチ 640x480 IPS (60Hz)
- - カメラ
-   - メイン:5MP(GC5035)
-   - イン:2MP(GC02M2)
- - 2,000mAh
+- 製造元: Bullitt Mobile Ltd.
+- SoC: Qualcomm 215
+- RAM: 2GB
+- ストレージ: 16GB eMMC
+- ディスプレイ: 640x480 IPS (60Hz)
+- OS: Android 11 R
+- カメラ
+  - メイン:5MP(GC5035)
+  - インカメラ:2MP(GC02M2)
+- 対応周波数
+  - 4G:1/2/3/4/5/7/12/13/20/25/26/28/38/39/40/41/66/71
+  - 3G:1/2/4/5/8/BC0/BC1/BC10
+  - GSM:850/900/1,800/1,900 <br>
 
 # メリット
 ## かっこいいデザイン

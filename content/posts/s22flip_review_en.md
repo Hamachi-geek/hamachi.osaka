@@ -12,15 +12,19 @@ tags:
 This time, I show you this cool flip phone, CAT S22 Flip.<br>
 
 # Spec
- - Qualcomm 215
- - RAM:2GB
- - ROM:16GB eMMC
- - Android 11 R
- - 2.5-inch 640x480 IPS (60Hz)
- - Camera
-   - Main:5MP(GC5035)
-   - Selfie:2MP(GC02M2)
- - 2,000mAh
+- Vendor: Bullitt Mobile Ltd.
+- Qualcomm 215
+- RAM: 2GB
+- Storage: 16GB eMMC
+- Disply: 640x480 IPS (60Hz)
+- OS: Android 11 R
+- Camera
+  - Main:5MP(GC5035)
+  - Selfie:2MP(GC02M2)
+- Frequency Band
+  - 4G:1/2/3/4/5/7/12/13/20/25/26/28/38/39/40/41/66/71
+  - 3G:1/2/4/5/8/BC0/BC1/BC10
+  - GSM:850/900/1,800/1,900 <br>
 
 # Pros
 ## Cool Design

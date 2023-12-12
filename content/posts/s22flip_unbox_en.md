@@ -12,15 +12,19 @@ tags:
 Hi! Today I will unbox the CAT S22 Flip, a dumb rugged phone. I bought this because I thought “I cannot go back to Japan without buying this phone while I’m studying abroad!” In this article, I unbox, set it up, and give a first-impression. I will write a specific review later. Please wait for it!
 
 # Spec
- - Qualcomm 215
- - RAM:2GB
- - ROM:16GB eMMC
- - Android 11 R
- - 2.5inch 640x480 IPS (60Hz)
- - Camera
-   - Main:5MP(GC5035)
-   - Selfie:2MP(GC02M2)
- - 2,000mAh
+- Vendor: Bullitt Mobile Ltd.
+- Qualcomm 215
+- RAM: 2GB
+- Storage: 16GB eMMC
+- Display: 640x480 IPS (60Hz)
+- OS: Android 11 R
+- Camera
+  - Main:5MP(GC5035)
+  - Selfie:2MP(GC02M2)
+- Frequency Band
+  - 4G:1/2/3/4/5/7/12/13/20/25/26/28/38/39/40/41/66/71
+  - 3G:1/2/4/5/8/BC0/BC1/BC10
+  - GSM:850/900/1,800/1,900 <br>
 
 # Intention
 I have used rugged devices, for example, Panasonic ToughPad FZ-X1 and UMIDIGI BISON X10Pro, so I was so interested in this phone since its release. Moreover, I have used Android dumb phones, for example, true move H SMART4G 3.5 Hybrid and KYOCERA GRATINA 4G KYF31, so I guess buying this keeps with the flow. This time, I used eBay to buy it, the price was $74.99. It was my first time with eBay, but I used it easily. A weak yen…
