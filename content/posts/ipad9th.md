@@ -8,12 +8,11 @@ created_at: 2023-03-14
 - RAM: 4GB
 - Storage: 64GB
 - Screen: 10.2inch IPS
-- OS: iPadOS 17.1.1 <br>
+- OS: iPadOS 17.2 <br>
 ![iPad9th](https://i.imgur.com/8il82eC.jpeg)
 
 # 概要
-GoodNotes5をゴリゴリ使ったり出先でMacのサブディスプレイにしたり大活躍中。友人との通話もこれで。先述した「声を分離」が助かります。<br>
-Lightning端子とApple Pencilが第1世代なのがものすごい不満ですが...
+GoodNotes5をゴリゴリ使ったり出先でMacのサブディスプレイにしたり大活躍中。友人との通話もこれで。先述した「声を分離」が助かります。<br>フリーボードも便利で、超高頻度で使っています。ただ本体熱々になったりバッテリー消費量が大変なことになるのが玉にキズです。
 
 # 周辺機器
 - Apple Smart Keyboard (US)

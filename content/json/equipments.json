@@ -1,29 +1,25 @@
 {
     "Phone": [
         {
-            "name": "Google Pixel 6",
+            "name": "FCNT arrows 5G F-51A",
             "use": "メイン機",
+            "details": "/posts/f51a"
+        },
+
+        {
+            "name": "CAT S22 Flip",
+            "use": "サブ機",
+            "details": "/posts/s22flip/"
+        },
+        {
+            "name": "Google Pixel 6",
+            "use": "電測用",
             "details": "/posts/pixel6/"
         },  
         {
-            "name": "FCNT arrows 5G F-51A",
-            "use": "サブ機",
-            "details": "/posts/f51a"
-        },
-        {
             "name": "Apple iPhone SE (2nd Generation)",
-            "use":"サブ機（1）",
+            "use":"Webカメラ",
             "details": "/posts/iphonese2/"
-        },
-        {
-            "name": "CAT S22 Flip",
-            "use": "お仕事携帯",
-            "details": "/posts/s22flip/"
-        },  
-        {
-            "name": "Apple iPhone 5c",
-            "use":"DAP",
-            "details": "/posts/iphone5c/"
         }
     ],
     "Tablet": [
