@@ -1,8 +1,13 @@
 {
     "Phone": [
         {
-            "name": "FCNT arrows 5G F-51A",
+            "name": "Sony Xperia 5 IV A204SO",
             "use": "メイン機",
+            "details": "/posts/a204so"
+        },
+        {
+            "name": "FCNT arrows 5G F-51A",
+            "use": "メイン機(1)",
             "details": "/posts/f51a"
         },
 
@@ -73,7 +78,7 @@
             "details": "/posts/ua3/"
         },
         {
-            "name": "SONY MDR-CD900ST",
+            "name": "Sony MDR-CD900ST",
             "use": "メインヘッドフォン",
             "details": "/posts/mdr900st/"
         },  
