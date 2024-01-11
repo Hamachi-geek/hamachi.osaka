@@ -94,7 +94,7 @@ module.exports = {
       },
       fontFamily: {
         // next/font で読み込んだやつ
-        'body': ['var(--koruri-font)'],
+        'body': ['var(--line-seed)'],
       }
     },
   },
