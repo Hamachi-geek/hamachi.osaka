@@ -31,12 +31,12 @@
         
         {
             "name": "Apple iPad (9th Generation)",
-            "use":"主に大学用",
+            "use":"メイン機",
             "details": "/posts/ipad9th"
         },
         {
             "name": "Fujitsu arrows Tab F-04H",
-            "use":"テレビ",
+            "use":"サブ機",
             "details": "/posts/f04h"
         }
     ],
