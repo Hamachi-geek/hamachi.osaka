@@ -23,7 +23,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.13.0
+          node-version: 21.6.2
       
       # 依存関係
       - name: Package install
