@@ -75,7 +75,7 @@ function ActivityPubInputForm({ onClose, onSubmit }: ActivityPubInputFormProps) 
 
                 <input
                     className="grow focus:outline-none bg-transparent text-content-text-light dark:text-content-text-dark w-40 border-b-2 border-b-content-primary-light dark:border-b-content-primary-dark"
-                    placeholder="サーバーURLを入力"
+                    placeholder="URL (例: mstdn.jp)"
                     onChange={(ev) => setServerName(ev.target.value)}
                     value={serverName} />
 
@@ -103,7 +103,7 @@ function ActivityPubShareButton({ onClick }: ActivityPubShareButtonProps) {
             <Button
                 variant="text"
                 startIcon={<ShareIcon />}
-                text="Mastodon / Misskey で共有" />
+                text="ActivityPubで共有" />
         </div>
     )
 }
