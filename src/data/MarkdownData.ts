@@ -4,6 +4,7 @@ import TocData from "./TocData"
 type MarkdownData = {
     /** タイトル */
     title: string,
+    description: string,
     /** 作成日 */
     createdAt: string,
     /** 作成日、UnixTime版 */
