@@ -6,25 +6,19 @@
             "details": "/posts/a204so"
         },
         {
-            "name": "FCNT arrows 5G F-51A",
+            "name": "Apple iPhone 14 Plus",
             "use": "メイン機(1)",
-            "details": "/posts/f51a"
+            "details": "/posts/a2885"
         },
-
         {
             "name": "CAT S22 Flip",
             "use": "サブ機",
             "details": "/posts/s22flip/"
         },
         {
-            "name": "Google Pixel 6",
-            "use": "電測用",
-            "details": "/posts/pixel6/"
-        },  
-        {
             "name": "Apple iPhone SE (2nd Generation)",
             "use":"Webカメラ",
-            "details": "/posts/iphonese2/"
+            "details": "/posts/a2296/"
         }
     ],
     "Tablet": [
@@ -46,11 +40,6 @@
             "name": "Apple MacBook Air (M1, 2020)",
             "use":"メインPC",
             "details": "/posts/macbook_air_m1/"
-        },
-        {
-            "name": "Microsoft Surface Go2 (Core-M)",
-            "use":"サブPC",
-            "details": "/posts/surface_go2/"
         }
     ],
     "POS": [
