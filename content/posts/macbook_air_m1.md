@@ -1,6 +1,7 @@
 ---
 title: Apple MacBook Air (M1, 2020)
 created_at: 2023-01-08
+description: MacBook Air (M1, 2020)の紹介
 ---
 
 # Apple Macbook Air (M1, 2020)

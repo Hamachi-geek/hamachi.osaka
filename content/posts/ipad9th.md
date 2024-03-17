@@ -1,6 +1,7 @@
 ---
 title: Apple iPad 9th
 created_at: 2023-03-14
+description: iPad 第9世代の紹介
 ---
 
 # Apple iPad (第9世代)
