@@ -18,7 +18,7 @@ description: MacBook Air (M1, 2020)の紹介
 メインPCです。ファンレスなのに重い作業をしてもしっかり動いてくれるので気に入ってます。<br>おかげで色々新しいチャレンジをできています。予算ギリギリまで使ってRAMを増やしてSSDも大きくしたことも正解でした。<br>ただ、"Air"なのに全く軽くない点はちょっと気に入らないですね。1.29kgなので、せめて1kgジャストぐらいにはなってほしいです。サイズはいいんですけどねえ。
 
 # 周辺機器
-- Keyboard: Apple Keyboard A1243 (JP)
+- Keyboard: VGN S99
 - Mouse: Kensington SlimBlade Trackball
 - Display: iiyama ProLite XUB2792QSN
 - Audio I/F: [TASCAM US-1x2HR](https://hamachi.osaka/posts/us1x2hr/)
