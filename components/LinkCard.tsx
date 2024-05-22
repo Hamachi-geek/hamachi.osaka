@@ -21,7 +21,7 @@ export default function LinkCard({ linkList }: LinkCardProps) {
                     リンク
                 </h2>
                 <p className="text-content-text-light dark:text-content-text-dark ">
-                    最近はmisskey.ioにいます。混雑時はYづドン
+                    最近はよくMisskey.ioにいます。
                 </p>
 
                 <RoundedCornerList
@@ -34,6 +34,7 @@ export default function LinkCard({ linkList }: LinkCardProps) {
                             <Link
                                 className="no-underline text-inherit"
                                 href={linkData.href}
+                                rel={linkData.rel}
                             >
                                 <div className="flex flex-row p-3 items-center">
                                     <div className="flex flex-col grow">

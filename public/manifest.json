@@ -18,9 +18,9 @@
     "og:title": "はまちのホムペ",
     "shortcuts": [
         {
-            "name": "記事一覧",
-            "short_name": "記事一覧",
-            "description": "記事一覧を開きます",
+            "name": "ブログを読む",
+            "short_name": "ブログを読む",
+            "description": "ブログ一覧を開きます",
             "url": "/posts/page/1/"
         }
     ]

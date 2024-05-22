@@ -1,7 +1,7 @@
-import fs from 'fs/promises'
-import LinkData from './data/LinkData'
-import MutualLinkData from './data/MutualLinkData'
-import { MakingAppData, MakingAppDetailData } from './data/MakingAppData'
+import fs from "fs/promises"
+import path from "path"
+import LinkData from "./data/LinkData"
+import { PortfolioData, PortfolioDetailData } from "./data/PortfolioData"
 import {EquipmentsData, EquipmentDetailData} from './data/EquipmentsData'
 
 /** 
@@ -16,8 +16,8 @@ class JsonFolderManager {
     /** 作ったアプリJSONのファイル名 */
     static JSON_MAKING_APP_FILE_NAME = `making_app.json`
 
-    static JSON_MUTUAL_LINK_FILE_NAME = 'mutual_link.json'
     static JSON_EQUIPMENTS_FILE_NAME = 'equipments.json'
+
     /** 一言メッセージJSONのファイル名 */
     static JSON_RANDOM_MESSAGE_FILE_NAME = `random_message.json`
 
@@ -30,15 +30,9 @@ class JsonFolderManager {
      * @returns リンク集データの配列
      */
     static async getLinkList() {
-        const linkJSON = await this.readTextFile(`${this.JSON_FOLDER_PATH}/${this.JSON_LINK_FILE_NAME}`)
+        const linkJSON = await this.readTextFile(path.join(this.JSON_FOLDER_PATH, this.JSON_LINK_FILE_NAME))
         const json = JSON.parse(linkJSON)
-        return json["link"] as Array<LinkData>
-    }
-
-    static async getMutualLinkList() {
-        const mutualLinkJSON = await this.readTextFile(`${this.JSON_FOLDER_PATH}/${this.JSON_MUTUAL_LINK_FILE_NAME}`)
-        const json = JSON.parse(mutualLinkJSON)
-        return json["mutual_link"] as Array<MutualLinkData>
+        return json["link"] as LinkData[]
     }
 
     /**
@@ -47,9 +41,9 @@ class JsonFolderManager {
      * @returns ランダムメッセージの配列
      */
     static async getRandomMessageList() {
-        const randomMessageJSON = await this.readTextFile(`${this.JSON_FOLDER_PATH}/${this.JSON_RANDOM_MESSAGE_FILE_NAME}`)
+        const randomMessageJSON = await this.readTextFile(path.join(this.JSON_FOLDER_PATH, this.JSON_RANDOM_MESSAGE_FILE_NAME))
         const json = JSON.parse(randomMessageJSON)
-        return json["random_message"] as Array<string>
+        return json["random_message"] as string[]
     }
 
     static async getEquipmentsMap() {
@@ -63,22 +57,20 @@ class JsonFolderManager {
             return categoryData
         })
     }
-
+    
     /**
      * 作ったアプリの配列を返す
      * 
-     * @returns MakingAppData配列
+     * @returns PortfolioData の配列
      */
-    static async getMakingAppMap() {
-        const makingJSON = await this.readTextFile(`${this.JSON_FOLDER_PATH}/${this.JSON_MAKING_APP_FILE_NAME}`)
+    static async getPortfolioList() {
+        const makingJSON = await this.readTextFile(path.join(this.JSON_FOLDER_PATH, this.JSON_MAKING_APP_FILE_NAME))
         const json = JSON.parse(makingJSON)
-        return Object.keys(json).map((key) => {
-            const platformData: MakingAppData = {
-                platfromName: key,
-                appList: json[key] as Array<MakingAppDetailData>
-            }
-            return platformData
-        })
+        const portfolioData: PortfolioData[] = Object.keys(json).map((key) => ({
+            categoryName: key,
+            categoryItemList: json[key] as PortfolioDetailData[]
+        }))
+        return portfolioData
     }
 
     /**

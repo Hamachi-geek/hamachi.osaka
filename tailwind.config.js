@@ -27,6 +27,8 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    // コピーボタンを差し込むので
+    "./src/transformShikiCodeBlockCopyButton.ts"
   ],
   theme: {
     // 既存の色を拡張する（プライマリカラー等を追加する）
@@ -44,13 +46,13 @@ module.exports = {
           // セカンダリーカラー
           secondary: {
             // md_theme_light_secondary
-            light: '#0e497c',
-            dark: '#0e497c'
+            light: '#974068',
+            dark: '#974068'
           },
           // 文字
           text: {
             // md_theme_dark_background : md_theme_light_background
-            light: '#1B1B1',
+            light: '#1B1B1F',
             dark: '#FEFBFF'
           }
         },
@@ -66,8 +68,8 @@ module.exports = {
           // セカンダリーカラー
           secondary: {
             // md_theme_light_surface : md_theme_dark_surface の RGB それぞれに 0.95 倍したもの。カラーコード 明るさ とかで検索
-            light: '#FFFBFF',
-            dark: '#1b1b1f'
+            light: '#f2eef2',
+            dark: '#19191d'
           }
         },
 
@@ -88,7 +90,7 @@ module.exports = {
         // 選択時の色（ホバー）
         hover: {
           // md_theme_light_primary の 25% の色。16進数なので 40 です（RGBA）
-          light: '#0f4c8140',
+          light: '#4A58A940',
           dark: '#BBC3FF40'
         },
       },
@@ -100,3 +102,4 @@ module.exports = {
   },
   plugins: [],
 }
+

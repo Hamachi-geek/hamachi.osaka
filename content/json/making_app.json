@@ -4,7 +4,8 @@
             "name": "KaizuCalc",
             "description": "貝塚円に関する計算をする電卓アプリだで。",
             "link": "https://play.google.com/store/apps/details?id=com.hmdroid.kaizucalc",
-            "github": "https://github.com/Hamachi-geek/KaizuCalc"
+            "github": "https://github.com/Hamachi-geek/KaizuCalc",
+            "image": "/portfolio/KaizuCalc.png"
         }
     ],
     "web": [
@@ -12,7 +13,8 @@
             "name": "このサイト",
             "description": "Next.js と Material-UI で出来ている",
             "link": "/",
-            "github": "https://github.com/Hamachi-geek/ziyuutyou-next"
+            "github": "https://github.com/Hamachi-geek/ziyuutyou-next",
+            "image": "/portfolio/hamachi.png"
         }
     ]
 }
