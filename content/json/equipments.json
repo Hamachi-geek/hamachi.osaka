@@ -2,12 +2,12 @@
     "Phone": [
         {
             "name": "Sony Xperia 5 IV A204SO",
-            "use": "メイン機",
+            "purpose": "メイン機",
             "details": "/posts/a204so"
         },
         {
             "name": "Apple iPhone 14 Plus",
-            "use": "メイン機(1)",
+            "purpose": "メイン機(1)",
             "details": "/posts/a2885"
         },
         {
@@ -17,12 +17,12 @@
         },
         {
             "name": "SEIKO 603SI",
-            "use": "旅用携帯",
+            "purpose": "旅用携帯",
             "details": "/posts/603si/"
         },
         {
             "name": "Apple iPhone SE (2nd Generation)",
-            "use":"Webカメラ",
+            "purpose":"Webカメラ",
             "details": "/posts/a2296/"
         }
     ],
@@ -30,12 +30,12 @@
         
         {
             "name": "Apple iPad (9th Generation)",
-            "use":"メイン機",
+            "purpose":"メイン機",
             "details": "/posts/ipad9th"
         },
         {
             "name": "Fujitsu arrows Tab F-04H",
-            "use":"サブ機",
+            "purpose":"サブ機",
             "details": "/posts/f04h"
         }
     ],
@@ -43,7 +43,7 @@
         
         {
             "name": "Apple MacBook Air (M1, 2020)",
-            "use":"メインPC",
+            "purpose":"メインPC",
             "details": "/posts/macbook_air_m1/"
         }
     ],
@@ -51,39 +51,39 @@
         
         {
             "name": "SUNMI V1s",
-            "use":"レシートプリンタ",
+            "purpose":"レシートプリンタ",
             "details": "/posts/sunmiv1s/"
         }
     ],
     "Audio": [
         {
             "name": "TASCAM US-1x2HR",
-            "use": "オーディオ I/F",
+            "purpose": "オーディオ I/F",
             "details": "/posts/us1x2hr/"
         },
         {
             "name": "Anker SoundCore 2",
-            "use": "PC用スピーカー",
+            "purpose": "PC用スピーカー",
             "details": "/posts/soundcore2/"
         },
         {
             "name": "Shanling UA3",
-            "use": "DAC",
+            "purpose": "DAC",
             "details": "/posts/ua3/"
         },
         {
             "name": "Sony MDR-CD900ST",
-            "use": "メインヘッドフォン",
+            "purpose": "メインヘッドフォン",
             "details": "/posts/mdr900st/"
         },  
         {
             "name": "KOSS PortaPro",
-            "use": "ポータブルヘッドフォン",
+            "purpose": "ポータブルヘッドフォン",
             "details": "/posts/portapro/"
         },  
         {
             "name": "SATOLEX Tsumuri",
-            "use": "IEM",
+            "purpose": "IEM",
             "details": "/posts/tsumuri/"
         },
         {
@@ -92,4 +92,4 @@
             "details": "/posts/quarks/"
         }
     ]
-    }
+        }

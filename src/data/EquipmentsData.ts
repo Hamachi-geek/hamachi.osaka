@@ -3,11 +3,13 @@ export type EquipmentDetailData = {
     /**デバイス名 */
     name: string,
     /**用途 */
-    use: string,
+    purpose: string,
     /**ひとこと */
     description: string,
     /**詳細 */
     details: string,
+
+    image?: string
 }
 
 /** 各プラットフォームのアプリ配列を入れるデータ */
