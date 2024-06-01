@@ -31,7 +31,6 @@ function EquipmentsDeckColumn({ equipmentsData, onMoreClick }: EquipmentsDeckCol
                     <EquipmentsCard
                         name={categoryItem.name}
                         description={categoryItem.description}
-                        detail={categoryItem.details}
                         image={categoryItem.image}
                         caterogyName={equipmentsData.categoryName} />
                 ))

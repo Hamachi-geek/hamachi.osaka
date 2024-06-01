@@ -5,7 +5,6 @@ import { EquipmentsData } from "../../src/data/EquipmentsData"
 import RoundedCornerBox from "../RoundedCornerBox"
 import { EquipmentsItem } from "./EquipmentsItem"
 import EquipmentsTab from "./EquipmentsTab"
-import EquipmentsDeck from "./EquipmentsDeck"
 
 /** EquipmentsCard へ渡すデータ */
 type EquipmentsCardProps = {
@@ -63,11 +62,11 @@ export default function EquipmentsCard({ equipmentsDataList }: EquipmentsCardPro
                 <div className="grid gap-4 grid-cols-1 lg:grid-cols-2">
                     {
                         equipItemList.map((detailData) => (
-                            <EquipmentDetailData
+                            <EquipmentsItem
                                 name={detailData.name}
                                 purpose={detailData.purpose}
                                 description={detailData.description}                           
-                                link={detailData.link}                      
+                                details={detailData.details}                      
                                 image={detailData.image}
                             />
                         ))

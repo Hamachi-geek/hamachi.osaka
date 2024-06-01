@@ -2,7 +2,7 @@ import { EquipmentDetailData } from "../../src/data/EquipmentsData"
 import NextLinkButton from "../NextLinkButton"
 
 /** カテゴリに含まれる一覧の各アイテム。画像付きのやつ */
-export function EquipmentsOtherItem({ name, description, details, purpose, image}: EquipmentDetailData) {
+export function EquipmentsItem({ name, description, details, purpose, image}: EquipmentDetailData) {
     return (
         <div className="flex flex-row p-3 space-x-4 rounded-3xl bg-background-light dark:bg-background-dark">
 
