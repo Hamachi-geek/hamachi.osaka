@@ -3,7 +3,7 @@ title: TASCAM US-1x2HR
 created_at: 2023-10-14
 ---
 
-# TASCAM US-1x2HR
+# スペック
 - Vendor: TASCAM
 - DAC Chip: CirrusLogic CS4272 
 - Format: 192kHz/24bit (Input/Output)

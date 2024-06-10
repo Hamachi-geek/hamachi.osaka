@@ -3,7 +3,7 @@ title: SATOLEX Tsumuri
 created_at: 2023-10-11
 ---
 
-# SATOLEX Tsumuri
+# スペック
 - Vendor: SATOLEX
 - Driver Unit: 9mm DD
 - Frequency Response Range: 20Hz~43kHz

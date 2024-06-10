@@ -3,7 +3,7 @@ title: SHANLING UA3
 created_at: 2023-10-14
 ---
 
-# SHANLING UA3
+# スペック
 - Vendor: SHANLING
 - DAC Chip: Asahi-Kasei AK4493SEQ
 - Amplifier: Ricore RT6863 x2

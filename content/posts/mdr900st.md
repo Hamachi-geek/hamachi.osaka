@@ -3,7 +3,7 @@ title: Sony MDR-CD900ST
 created_at: 2023-10-11
 ---
 
-# Sony MDR-CD900ST
+# スペック
 - Vendor: Sony
 - Driver Unit: 40mm DD
 - Frequency Response Range: 5Hz~30kHz

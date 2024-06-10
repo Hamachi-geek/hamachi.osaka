@@ -3,7 +3,7 @@ title: Anker SoundCore 2
 created_at: 2023-10-15
 ---
 
-# Anker SoundCore 2
+# スペック
 - Vendor: Anker
 - Input: Bluetooth v5.0, AUX
 - Frequency Response Range: 70Hz~20kHz

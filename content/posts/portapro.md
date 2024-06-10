@@ -3,7 +3,7 @@ title: KOSS PortaPro
 created_at: 2023-10-14
 ---
 
-# KOSS PortaPro
+# スペック
 - Vendor: KOSS
 - Frequency Response Range: 15Hz-25kHz
 ![PortaPro](https://i.imgur.com/D3OOhL7.jpg)

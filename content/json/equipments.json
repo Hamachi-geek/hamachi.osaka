@@ -11,19 +11,14 @@
             "details": "/posts/a2885"
         },
         {
-            "name": "CAT S22 Flip",
+            "name": "Kyocera DIGNO BX2 A101KC",
             "use": "サブ機",
-            "details": "/posts/s22flip/"
+            "details": "/posts/a101kc/"
         },
         {
             "name": "SEIKO 603SI",
             "use": "旅用携帯",
             "details": "/posts/603si/"
-        },
-        {
-            "name": "Apple iPhone SE (2nd Generation)",
-            "use":"Webカメラ",
-            "details": "/posts/a2296/"
         }
     ],
     "Tablet": [

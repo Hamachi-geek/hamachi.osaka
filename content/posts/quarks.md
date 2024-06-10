@@ -3,7 +3,7 @@ title: MOONDROP Quarks
 created_at: 2023-10-14
 ---
 
-# Moondrop Quarks
+# スペック
 - Vendor: MOONDROP
 - Driver Unit: 6mm DD
 - Frequency Response Range: 4Hz~43kHz

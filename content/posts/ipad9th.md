@@ -4,12 +4,12 @@ created_at: 2023-03-14
 description: iPad 第9世代の紹介
 ---
 
-# Apple iPad (第9世代)
+# スペック
 - Apple A13 Bionic
 - RAM: 4GB
 - Storage: 64GB
 - Screen: 10.2inch IPS
-- OS: iPadOS 17.2 <br>
+- OS: iPadOS 17.5.1 <br>
 ![iPad9th](https://i.imgur.com/8il82eC.jpeg)
 
 # 概要

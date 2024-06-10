@@ -3,7 +3,7 @@ title: CAT S22 Flip
 created_at: 2023-10-11
 ---
 
-# CAT S22 Flip
+# スペック
 - Vendor: Bullitt Mobile Ltd.
 - Qualcomm 215
 - RAM: 2GB

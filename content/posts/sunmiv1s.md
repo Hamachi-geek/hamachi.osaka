@@ -3,7 +3,7 @@ title: SUNMI V1s
 created_at: 2023-01-10
 ---
 
-# SUNMI V1s
+# スペック
 - MediaTek MT6580
 - RAM: 1GB
 - Storage: 8GB eMMC
