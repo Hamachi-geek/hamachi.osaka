@@ -73,7 +73,7 @@ type EquipmentsListProps = {
                         {item.name}
                     </h3>
                     <p className="text-content-text-light dark:text-content-text-dark">
-                        {item.purpose}
+                        {item.use}
                     </p>
                     <Spacer space="small" />
                     <div className="flex flex-row">
