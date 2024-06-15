@@ -104,7 +104,7 @@ function ActivityPubShareButton({ onClick }: ActivityPubShareButtonProps) {
             <Button
                 variant="text"
                 startIcon={<ShareIcon />}
-                text="ActivityPubに共有" />
+                text="任意のSNSに共有" />
         </div>
     )
 }
