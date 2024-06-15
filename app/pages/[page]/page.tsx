@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import ContentFolderManager from "../../../src/ContentFolderManager";
 import EnvironmentTool from "../../../src/EnvironmentTool";
 import { GitHubHistoryButton } from "../../../components/BlogDetailButton";
+import { XShare } from "../../../components/XShare";
 import DateCountText from "../../../components/DateCountText";
 import TagChipGroup from "../../../components/TagChipGroup";
 import { ExpandTocList, LargeTocList, TocListLayout } from "../../../components/TocList";
@@ -60,6 +61,7 @@ export default async function PageDetailPage({ params }: PageProps) {
     const shareOrHistoryButton = (
         <div className="flex flex-row-reverse space-x-2 space-x-reverse">
             <GitHubHistoryButton fileName={markdownData.fileName} />
+            <XShare url={ogpUrl} title={ogpTitle} />
             <ActivityPubShare url={ogpUrl} title={ogpTitle} />
         </div>
     )

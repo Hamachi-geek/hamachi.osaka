@@ -9,6 +9,8 @@ import DateCountText from "../../../components/DateCountText"
 import IconParent from "../../../components/IconParent"
 import EditIcon from "../../../public/icon/edit.svg"
 import ActivityPubShare from "../../../components/ActivityPubShare"
+import { XShare } from "../../../components/XShare";
+
 // 部分的に修正した css
 import "../../../styles/css/content.css"
 
@@ -64,8 +66,9 @@ export default async function BlogDetailPage({ params }: PageProps) {
     /* 共有、GitHub履歴 */
     const shareOrHistoryButton = (
         <div className="flex flex-row-reverse flex-wrap space-x-2 space-x-reverse">
-            <GitHubHistoryButton fileName={markdownData.fileName} />
+            <XShare url={ogpUrl} title={ogpTitle} />            
             <ActivityPubShare url={ogpUrl} title={ogpTitle} />
+            <GitHubHistoryButton fileName={markdownData.fileName} />
         </div>
     )
 
