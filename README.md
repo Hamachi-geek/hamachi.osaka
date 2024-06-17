@@ -3,7 +3,7 @@
 
 [![Netlify Deploy](https://github.com/Hamachi-geek/hamachi.osaka/actions/workflows/netlify-deploy.yml/badge.svg?branch=main)](https://github.com/Hamachi-geek/hamachi.osaka/actions/workflows/netlify-deploy.yml)
 <br>
-<img alt="Top Page" src="https://minio.zuiho.moe/media_attachments/files/112/630/577/284/492/833/original/25d43b4b3e3ed576.png" height="512px">
+<img alt="Top Page" src="https://minio.zuiho.moe/media_attachments/files/112/630/577/284/492/833/original/25d43b4b3e3ed576.png" width="512px">
 <img alt="Blog" src="https://minio.zuiho.moe/media_attachments/files/112/630/576/494/392/646/original/7bcc8598c34bbe41.png" height="512px">
 
 ## 使用技術
