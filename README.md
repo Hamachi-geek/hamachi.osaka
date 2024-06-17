@@ -10,6 +10,7 @@
 - <img alt="type script" src="https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/TypeScript/TypeScript.png?raw=true" width="512px">
 - <img alt="tailwind css" src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/tailwind%20css/Tailwindcss.png" width="512px">
 - unified
+<p>Logo by SAWARATSUKI (@sawaratsuki1004)</p>
 
 ## 開発環境構築
 
