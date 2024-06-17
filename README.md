@@ -1,4 +1,4 @@
-# ziyuutyou-next
+# hamachi.osaka
 たくさんの自由帳 Next.js リメイク版ベースのはまちのホムペです。
 
 [![Netlify Deploy](https://github.com/Hamachi-geek/hamachi.osaka/actions/workflows/netlify-deploy.yml/badge.svg?branch=main)](https://github.com/Hamachi-geek/hamachi.osaka/actions/workflows/netlify-deploy.yml)
