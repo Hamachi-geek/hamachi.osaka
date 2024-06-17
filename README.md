@@ -1,15 +1,15 @@
 # ziyuutyou-next
 たくさんの自由帳 Next.js リメイク版ベースのはまちのホムペです。
 
-[![Netlify Deploy](https://github.com/takusan23/ziyuutyou-next/actions/workflows/netlify-deploy.yml/badge.svg?branch=main)](https://github.com/takusan23/ziyuutyou-next/actions/workflows/netlify-deploy.yml)
+[![Netlify Deploy](https://github.com/Hamachi-geek/hamachi.osaka/actions/workflows/netlify-deploy.yml/badge.svg?branch=main)](https://github.com/Hamachi-geek/hamachi.osaka/actions/workflows/netlify-deploy.yml)
+<br>
+<img alt="Top Page" src="https://minio.zuiho.moe/media_attachments/files/112/630/577/284/492/833/original/25d43b4b3e3ed576.png" height="512px">
+<img alt="Blog" src="https://minio.zuiho.moe/media_attachments/files/112/630/576/494/392/646/original/7bcc8598c34bbe41.png" height="512px">
 
-[![AWS Deploy](https://github.com/takusan23/ziyuutyou-next/actions/workflows/aws-deploy.yml/badge.svg?branch=main)](https://github.com/takusan23/ziyuutyou-next/actions/workflows/aws-deploy.yml)
-
-![Imgur](https://imgur.com/ceQ6UID.png)
-
-![Imgur](https://imgur.com/CaZ2lr0.png)
-
-`Next.js` / `Tailwind CSS` / `unified` で出来ている。
+## 使用技術
+- <img alt="type script" src="https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/TypeScript/TypeScript.png?raw=true" width="512px">
+- <img alt="tailwind css" src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/tailwind%20css/Tailwindcss.png" width="512px">
+- unified
 
 ## 開発環境構築
 
