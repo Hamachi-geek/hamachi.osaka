@@ -3,9 +3,9 @@ export type EquipmentDetailData = {
     /**デバイス名 */
     name: string,
     /**用途 */
-    use: string,
-    /**ひとこと */
-    description: string,
+    purpose: string,
+    /**購入日 */
+    purchase_date: string,
     /**詳細 */
     details: string,
 }

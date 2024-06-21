@@ -2,22 +2,26 @@
     "Phone": [
         {
             "name": "Sony Xperia 5 IV A204SO",
-            "use": "メイン機",
+            "purpose": "メイン機",
+            "purchase_date": "2024/1/4",
             "details": "/posts/a204so"
         },
         {
             "name": "Apple iPhone 14 Plus",
-            "use": "メイン機(1)",
+            "purpose": "メイン機(1)",
+            "purchase_date":"2024/3/12",
             "details": "/posts/a2885"
         },
         {
             "name": "Kyocera DIGNO BX2 A101KC",
-            "use": "サブ機",
+            "purpose": "サブ機",
+            "purchase_date":"2024/6/7",
             "details": "/posts/a101kc/"
         },
         {
             "name": "SEIKO 603SI",
-            "use": "旅用携帯",
+            "purpose": "旅用携帯",
+            "purchase_date":"2023/12/5",
             "details": "/posts/603si/"
         }
     ],
@@ -25,12 +29,14 @@
         
         {
             "name": "Apple iPad (9th Generation)",
-            "use":"メイン機",
+            "purpose":"メイン機",
+            "purchase_date":"2022/1/1",
             "details": "/posts/ipad9th"
         },
         {
             "name": "Fujitsu arrows Tab F-04H",
-            "use":"サブ機",
+            "purpose":"サブ機",
+            "purchase_date":"2023/7/15",
             "details": "/posts/f04h"
         }
     ],
@@ -38,7 +44,8 @@
         
         {
             "name": "Apple MacBook Air (M1, 2020)",
-            "use":"メインPC",
+            "purpose":"メインPC",
+            "purchase_date":"2022/2/3",
             "details": "/posts/macbook_air_m1/"
         }
     ],
@@ -46,44 +53,52 @@
         
         {
             "name": "SUNMI V1s",
-            "use":"レシートプリンタ",
+            "purpose":"レシートプリンタ",
+            "purchase_date":"2022/4/1",
             "details": "/posts/sunmiv1s/"
         }
     ],
     "Audio": [
         {
             "name": "TASCAM US-1x2HR",
-            "use": "オーディオ I/F",
+            "purpose": "オーディオ I/F",
+            "purchase_date":"2023/2/1",
             "details": "/posts/us1x2hr/"
         },
         {
             "name": "Anker SoundCore 2",
-            "use": "PC用スピーカー",
+            "purpose": "スピーカー",
+            "purchase_date":"2023/9/4",
             "details": "/posts/soundcore2/"
         },
         {
             "name": "Shanling UA3",
-            "use": "DAC",
+            "purpose": "DAC",
+            "purchase_date":"2022/12/25",
             "details": "/posts/ua3/"
         },
         {
             "name": "Sony MDR-CD900ST",
-            "use": "メインヘッドフォン",
+            "purpose": "メインヘッドフォン",
+            "purchase_date":"2023/2/26",
             "details": "/posts/mdr900st/"
         },  
         {
             "name": "KOSS PortaPro",
-            "use": "ポータブルヘッドフォン",
+            "purpose": "ポータブルヘッドフォン",
+            "purchase_date":"2021/12/16",
             "details": "/posts/portapro/"
         },  
         {
             "name": "SATOLEX Tsumuri",
-            "use": "IEM",
+            "purpose": "IEM",
+            "purchase_date":"2023/2/20",
             "details": "/posts/tsumuri/"
         },
         {
             "name": "Moondrop Quarks",
-            "use": "イヤホン",
+            "purpose": "イヤホン",
+            "purchase_date":"2022/9/5",
             "details": "/posts/quarks/"
         }
     ]
