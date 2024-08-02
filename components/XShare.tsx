@@ -1,4 +1,3 @@
-// useState / onClick を使いたいのでクライアントコンポーネント
 "use client"
 
 import NextLinkButton from "./NextLinkButton"
@@ -12,7 +11,7 @@ type XShareButtonProps = {
     url: string
 }
 
-/** Twitterシェアボタン */
+/** Xシェアボタン */
 export function XShare({ title, url }: XShareButtonProps) {
     // 共有URL
     const href = `http://x.com/share?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`
