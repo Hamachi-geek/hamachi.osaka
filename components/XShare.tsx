@@ -15,6 +15,7 @@ type XShareButtonProps = {
 export function XShare({ title, url }: XShareButtonProps) {
     // 共有URL
     const href = `http://x.com/share?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`
+
     return (
         <NextLinkButton
             variant="text"

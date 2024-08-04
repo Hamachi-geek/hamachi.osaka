@@ -31,7 +31,7 @@ export default function ActivityPubShare({ title, url }: ActivityPubShareProps) 
                             // Enter / ボタン押した時に呼ばれる
                             // 新しいタブで開く
                             const shareUrl = `https://${serverName}/share?text=${encodeURIComponent(title)}\n${encodeURIComponent(url)}`
-                            window.open(shareUrl, '__blank')
+                            window.open(shareUrl, '__blank','noopener')
                         }} />
                     : <ActivityPubShareButton
                         onClick={() => setOpen(true)} />
