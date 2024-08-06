@@ -35,6 +35,7 @@ export default function LinkCard({ linkList }: LinkCardProps) {
                                 className="no-underline text-inherit"
                                 href={linkData.href}
                                 rel={linkData.rel}
+                                target="_blank"
                             >
                                 <div className="flex flex-row p-3 items-center">
                                     <div className="flex flex-col grow">
