@@ -14,7 +14,6 @@ const LINESeedJP = localFont({
     // CSS 変数として使う
     variable: '--line-seed',
     src: [
-        { path: '../styles/css/fonts/LINESeedJP_TTF_Rg.eot' },
         { path: '../styles/css/fonts/LINESeedJP_A_TTF_Rg.ttf' },
         { path: '../styles/css/fonts/LINESeedJP_OTF_Rg.woff' },
     ]
