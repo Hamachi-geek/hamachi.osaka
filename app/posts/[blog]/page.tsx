@@ -86,7 +86,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                     dateTimeFormat={markdownData.createdAt}
                     createdAtUnixTime={markdownData.createdAtUnixTime} />
                  <ChangeDateCountText
-                    changedtimeTagTimeFormat={changedateTimeFormat}
+                    changedtimeTagTimeFormat={dateTimeFormat}
                     changedateTimeFormat={markdownData.changedAt}
                     changedAtUnixTime={markdownData.changedAtUnixTime} />    
                 {textCountText}
