@@ -12,6 +12,7 @@ import TabletIcon from "../public/icon/tablet.svg"
 import ComputerIcon from "../public/icon/computer.svg"
 import AudioIcon from "../public/icon/audio.svg"
 import POSIcon from "../public/icon/pos.svg"
+import NetworkIcon from "../public/icon/network.svg"
 
 /** 名前とアイコンの型 */
 type CategoryData = {
@@ -97,7 +98,8 @@ const CATEGORY_NAME_TO_ICON_LIST: CategoryData[] = [
     { name: "Tablet", icon: <TabletIcon /> },
     { name: "PC", icon: <ComputerIcon /> },
     { name: "POS", icon: <POSIcon /> },
-    { name: "Audio", icon: <AudioIcon /> }
+    { name: "Audio", icon: <AudioIcon /> },
+    { name: "Network", icon: <NetworkIcon /> }   
 ]
 
 

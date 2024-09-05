@@ -9,7 +9,7 @@ description: MacBook Air (M1, 2020)の紹介
 - RAM: 16GB
 - Storage: 512GB NVMe SSD
 - Screen: 13inch IPS
-- OS: macOS 14.4 Sonoma
+- OS: macOS 14.6.1 Sonoma
 - Vendor: Apple
   
 ![MBA](https://i.imgur.com/CMQivpq.jpeg)
