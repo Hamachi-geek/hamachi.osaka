@@ -51,7 +51,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
     const ogpTitle = `${markdownData.title} - ${EnvironmentTool.SITE_NAME}`
     const ogpUrl = `${EnvironmentTool.BASE_URL}${markdownData.link}`
     const dateTimeFormat = markdownData.createdAt.replace(/\//g, '-')
-    const changedateTimeFormat = markdownData.createdAt.replace(/\//g, '-')
+    const changedateTimeFormat = markdownData.changedAt.replace(/\//g, '-')
 
     /** 文字数 */
     const textCountText = (
@@ -86,7 +86,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                     dateTimeFormat={markdownData.createdAt}
                     createdAtUnixTime={markdownData.createdAtUnixTime} />
                  <ChangeDateCountText
-                    timeTagTimeFormat={changedateTimeFormat}
+                    changedtimeTagTimeFormat={changedateTimeFormat}
                     changedateTimeFormat={markdownData.changedAt}
                     changedAtUnixTime={markdownData.changedAtUnixTime} />    
                 {textCountText}

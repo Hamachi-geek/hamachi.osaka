@@ -60,10 +60,10 @@ class MarkdownParser {
         const description = matterResult.data['description'] as string
         // 誰もビルドマシンが日本語環境とは言っていない、ので日本語のローカルを指定する（Netlifyでビルドすると外国語環境なので日付がおかしくなる）
         const createdAt = date.toLocaleDateString('ja-JP')
-        const changedAt = date.toLocaleDateString('ja-JP')
+        const changedAt = date_change.toLocaleDateString('ja-JP')
         const tags = (matterResult.data['tags'] ?? []) as string[]
         const createdAtUnixTime = date.getTime()
-        const changedAtUnixTime = date.getTime()
+        const changedAtUnixTime = date_change.getTime()
         // 文字数カウント。
         // 正規表現でコードブロックを取り出して、その分の文字数を消す
         const markdownCodeBlockAllExtract = Array.from(markdownContent.matchAll(this.REGEX_MARKDOWN_CODE_BLOCK), (m) => m[0])

@@ -160,6 +160,16 @@ export async function GET(_: Request, { params }: PageProps) {
                             >
                                 {markdownData.createdAt}
                             </p>
+
+                            <p
+                                style={{
+                                    fontSize: 40,
+                                    color: contentColor,
+                                    alignSelf: 'flex-end'
+                                }}
+                            >
+                                {markdownData.changedAt}
+                            </p>
                         </div>
                     </div>
 

@@ -80,7 +80,7 @@ export default async function PageDetailPage({ params }: PageProps) {
                     dateTimeFormat={markdownData.createdAt}
                     createdAtUnixTime={markdownData.createdAtUnixTime} />
                 <ChangeDateCountText
-                    timeTagTimeFormat={changedateTimeFormat}
+                    changedtimeTagTimeFormat={changedateTimeFormat}
                     changedateTimeFormat={markdownData.changedAt}
                     changedAtUnixTime={markdownData.changedAtUnixTime} />    
                 {textCountText}

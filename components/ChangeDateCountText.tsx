@@ -7,7 +7,7 @@ import UpdateIcon from "../public/icon/update.svg"
 /** DateCountText へ渡すデータ */
 type DateCountTextProps = {
     /** time タグに入れるためのフォーマット。yyyy-MM-dd */
-    timeTagTimeFormat: string
+    changedtimeTagTimeFormat: string
     /** 変更日時。yyyy/MM/dd */
     changedateTimeFormat: string
     /** 変更日時。UnixTime */
@@ -15,7 +15,7 @@ type DateCountTextProps = {
 }
 
 /** 何日前かを表示するコンポーネント。クライアント側で計算するため use client します。 */
-export default function ChangeDateCountText({ timeTagTimeFormat, changedateTimeFormat, changedAtUnixTime }: DateCountTextProps) {
+export default function ChangeDateCountText({ changedtimeTagTimeFormat, changedateTimeFormat, changedAtUnixTime }: DateCountTextProps) {
     // 何日前かを計算する
     const [diffDate, setDiffDate] = useState(0)
     useEffect(() => {
@@ -31,7 +31,7 @@ export default function ChangeDateCountText({ timeTagTimeFormat, changedateTimeF
             <p className="text-content-primary-light dark:text-content-primary-dark">
                 <span>更新日 : </span>
                 {/* time にしないと、Googleとかの検索結果に日付が出ない？ */}
-                <time dateTime={timeTagTimeFormat}>{changedateTimeFormat}</time>
+                <time dateTime={changedtimeTagTimeFormat}>{changedateTimeFormat}</time>
                 <span>{` | ${diffDate} 日前`}</span>
             </p>
         </div>
