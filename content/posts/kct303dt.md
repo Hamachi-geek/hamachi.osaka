@@ -1,6 +1,6 @@
 ---
 title: KC-T303DT
-created_at: 2023-10-11
+created_at: 2024-09-05
 ---
 
 # スペック
