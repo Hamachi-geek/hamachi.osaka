@@ -41,7 +41,7 @@ module.exports = {
           primary: {
             // md_theme_light_primary
             light: '#0f4c81',
-            dark: '#2CA6DE'
+            dark: '#0BABFF'
           },
           // セカンダリーカラー
           secondary: {
