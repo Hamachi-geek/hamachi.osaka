@@ -8,6 +8,10 @@ type MarkdownData = {
     createdAt: string
     /** 作成日、UnixTime版 */
     createdAtUnixTime: number
+    /** 更新日 */
+    changedAt: string
+    /** 作成日、UnixTime版 */
+    changedAtUnixTime: number
     /** タグ */
     tags: string[]
     /** 見出し。100 文字まで */

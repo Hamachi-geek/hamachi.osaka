@@ -10,6 +10,8 @@ type BlogItem = {
     link: string
     /** 投稿日 */
     createdAt: string
+    /** 更新日 */
+    changedAt: string
     /** チラ見せ。 */
     description: string
     /** タグ */

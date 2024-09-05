@@ -5,6 +5,7 @@ import { GitHubHistoryButton } from "../../../components/BlogDetailButton"
 import TagChipGroup from "../../../components/TagChipGroup"
 import RoundedCornerBox from "../../../components/RoundedCornerBox"
 import { ExpandTocList, LargeTocList, TocListLayout } from "../../../components/TocList"
+import ChangeDateCountText from "../../../components/ChangeDateCountText"
 import DateCountText from "../../../components/DateCountText"
 import IconParent from "../../../components/IconParent"
 import EditIcon from "../../../public/icon/edit.svg"
@@ -50,6 +51,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
     const ogpTitle = `${markdownData.title} - ${EnvironmentTool.SITE_NAME}`
     const ogpUrl = `${EnvironmentTool.BASE_URL}${markdownData.link}`
     const dateTimeFormat = markdownData.createdAt.replace(/\//g, '-')
+    const changedateTimeFormat = markdownData.createdAt.replace(/\//g, '-')
 
     /** 文字数 */
     const textCountText = (
@@ -83,6 +85,10 @@ export default async function BlogDetailPage({ params }: PageProps) {
                     timeTagTimeFormat={dateTimeFormat}
                     dateTimeFormat={markdownData.createdAt}
                     createdAtUnixTime={markdownData.createdAtUnixTime} />
+                 <ChangeDateCountText
+                    timeTagTimeFormat={changedateTimeFormat}
+                    changedateTimeFormat={markdownData.changedAt}
+                    changedAtUnixTime={markdownData.changedAtUnixTime} />    
                 {textCountText}
             </div>
 

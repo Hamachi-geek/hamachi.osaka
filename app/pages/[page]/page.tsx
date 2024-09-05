@@ -3,6 +3,7 @@ import ContentFolderManager from "../../../src/ContentFolderManager";
 import EnvironmentTool from "../../../src/EnvironmentTool";
 import { GitHubHistoryButton } from "../../../components/BlogDetailButton";
 import { XShare } from "../../../components/XShare";
+import ChangeDateCountText from "../../../components/ChangeDateCountText";
 import DateCountText from "../../../components/DateCountText";
 import TagChipGroup from "../../../components/TagChipGroup";
 import { ExpandTocList, LargeTocList, TocListLayout } from "../../../components/TocList";
@@ -44,6 +45,7 @@ export default async function PageDetailPage({ params }: PageProps) {
     const ogpTitle = `${markdownData.title} - はまちのホムペ`
     const ogpUrl = `${EnvironmentTool.BASE_URL}${markdownData.link}`
     const dateTimeFormat = markdownData.createdAt.replace(/\//g, '-')
+    const changedateTimeFormat = markdownData.changedAt.replace(/\//g, '-')
 
     /** 文字数 */
     const textCountText = (
@@ -77,6 +79,10 @@ export default async function PageDetailPage({ params }: PageProps) {
                     timeTagTimeFormat={dateTimeFormat}
                     dateTimeFormat={markdownData.createdAt}
                     createdAtUnixTime={markdownData.createdAtUnixTime} />
+                <ChangeDateCountText
+                    timeTagTimeFormat={changedateTimeFormat}
+                    changedateTimeFormat={markdownData.changedAt}
+                    changedAtUnixTime={markdownData.changedAtUnixTime} />    
                 {textCountText}
             </div>
 

@@ -178,6 +178,7 @@ class ContentFolderManager {
             .map(data => ({
                 title: data.title,
                 createdAt: data.createdAt,
+                changedAt: data.changedAt,
                 description: data.description,
                 link: data.link,
                 tags: data.tags
