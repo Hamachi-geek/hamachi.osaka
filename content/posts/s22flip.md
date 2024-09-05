@@ -1,6 +1,7 @@
 ---
 title: CAT S22 Flip
 created_at: 2023-10-11
+changed_at: 2024-09-05
 ---
 
 # スペック

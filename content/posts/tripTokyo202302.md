@@ -1,6 +1,7 @@
 ---
 title: スマホなしで東京遠征
 created_at: 2024-05-11
+changed_at: 2024-09-05
 description: スマホなしで旅するのはなかなか新鮮でした。
 tags:
   - 外出

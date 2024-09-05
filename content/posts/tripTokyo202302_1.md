@@ -1,6 +1,7 @@
 ---
 title: スマホなしで東京遠征(1)
 created_at: 2024-07-17
+changed_at: 2024-09-05
 description: 結構焦りました。
 tags:
   - 外出

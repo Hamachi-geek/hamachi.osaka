@@ -1,6 +1,7 @@
 ---
 title: Speed Wi-Fi HOME 5G L12
 created_at: 2024-09-05
+changed_at: 2024-09-05
 ---
 
 # スペック

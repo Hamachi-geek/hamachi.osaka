@@ -1,6 +1,7 @@
 ---
 title: CAT S22 Flip 長期使用レビュー
 created_at: 2023-11-08
+changed_at: 2024-09-05
 tags:
 - Android
 - ガラホ (Dumb Phone)

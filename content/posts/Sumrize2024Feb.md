@@ -1,6 +1,7 @@
 ---
 title: 2024年2月を振り返る
 created_at: 2024-02-28
+changed_at: 2024-09-05
 description: 免許取得頑張ります
 tags:
 - 今月のダイジェスト

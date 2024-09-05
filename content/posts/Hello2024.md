@@ -1,6 +1,7 @@
 ---
 title: 年明けやし
 created_at: 2024-01-08
+changed_at: 2024-09-05
 description: 今年もよろしくお願いします。
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 2024年3月のダイジェスト
 created_at: 2024-03-31
+changed_at: 2024-09-05
 description: 教習で忙殺されてました
 tags:
 - 今月のダイジェスト

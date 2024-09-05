@@ -1,6 +1,7 @@
 ---
 title: arrows 5Gレビュー
 created_at: 2023-01-24
+changed_at: 2024-09-05
 tags:
 - Android
 - arrows

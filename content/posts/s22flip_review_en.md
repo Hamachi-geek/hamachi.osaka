@@ -1,6 +1,7 @@
 ---
 title: CAT S22 Flip Review
 created_at: 2023-11-29
+changed_at: 2024-09-05
 tags:
 - Android
 - 海外端末

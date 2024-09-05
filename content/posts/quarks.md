@@ -1,6 +1,7 @@
 ---
 title: MOONDROP Quarks
 created_at: 2023-10-14
+changed_at: 2024-09-05
 ---
 
 # スペック
