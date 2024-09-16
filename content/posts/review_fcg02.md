@@ -1,7 +1,7 @@
 ---
 title: arrows We2 FCG02レビュー
-created_at: 2024-09-25
-changed_at: 2024-09-25
+created_at: 2024-09-16
+changed_at: 2024-09-16
 tags:
 - Android
 - arrows
