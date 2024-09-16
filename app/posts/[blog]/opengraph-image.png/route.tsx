@@ -158,7 +158,7 @@ export async function GET(_: Request, { params }: PageProps) {
                                     alignSelf: 'flex-end'
                                 }}
                             >
-                                {markdownData.createdAt}
+                                作成日:{markdownData.createdAt}
                             </p>
 
                             <p
@@ -168,7 +168,7 @@ export async function GET(_: Request, { params }: PageProps) {
                                     alignSelf: 'flex-end'
                                 }}
                             >
-                                {markdownData.changedAt}
+                                変更日:{markdownData.changedAt}
                             </p>
                         </div>
                     </div>
