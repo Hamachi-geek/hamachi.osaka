@@ -150,7 +150,7 @@ export async function GET(_: Request, { params }: PageProps) {
                             >
                                 {markdownData.title}
                             </h1>
-
+                            <p>作成日:</p>
                             <p
                                 style={{
                                     fontSize: 40,
@@ -158,9 +158,9 @@ export async function GET(_: Request, { params }: PageProps) {
                                     alignSelf: 'flex-end'
                                 }}
                             >
-                                作成日:{markdownData.createdAt}
+                                {markdownData.createdAt}
                             </p>
-
+                            <p>変更日:</p>
                             <p
                                 style={{
                                     fontSize: 40,
@@ -168,7 +168,7 @@ export async function GET(_: Request, { params }: PageProps) {
                                     alignSelf: 'flex-end'
                                 }}
                             >
-                                変更日:{markdownData.changedAt}
+                                {markdownData.changedAt}
                             </p>
                         </div>
                     </div>
