@@ -1,5 +1,5 @@
 ---
-title: 2024年3月のダイジェスト
+title: プライバシーポリシー (KaizuCalc)
 created_at: 2025-02-13
 changed_at: 2024-02-13
 description: KaizuCalcのプライバシーポリシー
