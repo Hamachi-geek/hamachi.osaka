@@ -97,7 +97,7 @@ type ActivityPubShareButtonProps = {
     onClick: () => void
 }
 
-/** Mastodon / Misskey で共有するボタン */
+/** 任意のSNS で共有するボタン */
 function ActivityPubShareButton({ onClick }: ActivityPubShareButtonProps) {
     return (
         <div className="flex" onClick={onClick}>

@@ -1,6 +1,12 @@
 {
     "Phone": [
-       
+
+        {
+            "name": "DuraForce EX A301KC",
+            "purpose": "メイン機",
+            "purchase_date":"2025/3/2",
+            "details": "/posts/a301kc"
+        },
         {
             "name": "Apple iPhone 14 Plus",
             "purpose": "メイン機",
@@ -8,10 +14,17 @@
             "details": "/posts/a2885"
         },
         {
-        "name": "SONY Xperia 5 IV A204SO",
-        "purpose": "カメラ",
-        "purchase_date": "2024/1/4",
-        "details": "/posts/a204so"
+            "name": "BALMUDA Phone X01A",
+            "purpose": "サブ機",
+            "purchase_date":"2024/11/24",
+            "details": "/posts/x01a"
+        },
+        
+        {
+            "name": "Xiaomi 14T Pro A402XM",
+            "purpose": "カメラ",
+            "purchase_date": "2024/12/7",
+            "details": "/posts/a402xm"
         },
         {
             "name": "SEIKO 603SI",
@@ -27,12 +40,6 @@
             "purpose":"メイン機",
             "purchase_date":"2024/11/15",
             "details": "/posts/a2995"
-        },
-        {
-            "name": "Apple iPad (9th Generation)",
-            "purpose":"作業スペース用",
-            "purchase_date":"2022/1/1",
-            "details": "/posts/ipad9th"
         },
         {
             "name": "Kyocera KC-T303DT",
@@ -63,18 +70,18 @@
         
         {
             "name": "Speed Wi-Fi HOME 5G L12",
-            "purpose":"Wi-Fiルーター",
+            "purpose":"自宅用Wi-Fiルーター",
             "purchase_date":"2024/8/21",
             "details": "/posts/nar02/"
+        },
+        {
+            "name": "Speed Wi-Fi HOME 5G L12",
+            "purpose":"持ち出し用Wi-Fiルーター",
+            "purchase_date":"2025/6/1",
+            "details": "/posts/ztr01/"
         }
     ],
     "Audio": [
-        {
-            "name": "SONY WF-C510",
-            "purpose": "ワイヤレスイヤホン",
-            "purchase_date":"2024/9/11",
-            "details": "/posts/yy2982/"
-        },
         {
             "name": "Maestrauio MAPro1000",
             "purpose": "メインイヤホン",
