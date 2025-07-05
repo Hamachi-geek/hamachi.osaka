@@ -13,7 +13,7 @@
 
   /* 文字 md_theme_dark_background / md_theme_light_background */
   --color-content-text-light: #1b1b1f;
-  --color-content-text-dark: #fefbff;
+  --color-content-text-dark: #fff;
 
   /* コンテナの色 コンテンツの色の下に敷く プライマリーカラー md_theme_light_surface / md_theme_dark_surface */
   --color-container-primary-light: #fffbff;
