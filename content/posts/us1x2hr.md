@@ -9,7 +9,8 @@ changed_at: 2024-09-05
 - DAC Chip: CirrusLogic CS4272 
 - Format: 192kHz/24bit (Input/Output)
 - Output: 6.3mm Balanced Stereo, RCA Stereo
-- Input: XLR Balannced MONO, 6.5mm Balanced MONO, RCA Stereo <br>
+- Input: XLR Balannced MONO, 6.5mm Balanced MONO, RCA Stereo
+
 ![US1x2HR](https://i.imgur.com/qSWStDw.jpg)
 
 # 概要
