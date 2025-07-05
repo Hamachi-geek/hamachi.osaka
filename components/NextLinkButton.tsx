@@ -8,13 +8,11 @@ type NextLinkButtonProps = {
 } & ButtonProps
 
 /** NextLink でラップした <Button> */
-export default function NextLinkButton({ href, text, startIcon, variant, isDisabled, size}: NextLinkButtonProps) {
-    
+export default function NextLinkButton({ href, text, startIcon, variant, isDisabled, size, rounded }: NextLinkButtonProps) {
+
     return (
         <Link
-            className="flex items-center no-underline text-inherit"
-            rel="noopener noreferrer" 
-            target="_blank"
+            className="flex items-center self-start no-underline text-inherit"
             href={href}
         >
             <Button
@@ -22,7 +20,8 @@ export default function NextLinkButton({ href, text, startIcon, variant, isDisab
                 startIcon={startIcon}
                 variant={variant}
                 isDisabled={isDisabled}
-                size={size} />
+                size={size}
+                rounded={rounded} />
         </Link>
     )
 }

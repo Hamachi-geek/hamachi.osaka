@@ -4,6 +4,7 @@ import LinkData from "./data/LinkData"
 import { PortfolioData, PortfolioDetailData } from "./data/PortfolioData"
 import {EquipmentsData, EquipmentDetailData} from './data/EquipmentsData'
 
+
 /** 
  * ContentFolderManager の JSONフォルダ版 
  * 
@@ -16,7 +17,8 @@ class JsonFolderManager {
     /** 作ったアプリJSONのファイル名 */
     static JSON_MAKING_APP_FILE_NAME = `making_app.json`
 
-    static JSON_EQUIPMENTS_FILE_NAME = 'equipments.json'
+        static JSON_EQUIPMENTS_FILE_NAME = 'equipments.json'
+
 
     /** 一言メッセージJSONのファイル名 */
     static JSON_RANDOM_MESSAGE_FILE_NAME = `random_message.json`
@@ -57,7 +59,7 @@ class JsonFolderManager {
             return categoryData
         })
     }
-    
+
     /**
      * 作ったアプリの配列を返す
      * 

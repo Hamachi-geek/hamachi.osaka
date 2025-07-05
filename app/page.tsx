@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import JsonFolderManager from "../src/JsonFolderManager";
 import ProfileCard from "../components/ProfileCard";
 import EnvironmentTool from "../src/EnvironmentTool";
-import LinkCard from "../components/LinkCard";
 import EquipmentsCard from "../components/EquipmentsCard";
+import LinkCard from "../components/LinkCard";
 import PortfolioCard from "../components/portfolio/PortfolioCard";
 
 /** <head> に入れる値 */

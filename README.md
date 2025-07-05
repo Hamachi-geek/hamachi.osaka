@@ -41,17 +41,39 @@ npm run dev
 マークダウンで書きます。  
 `content`フォルダ内`posts`フォルダへマークダウンのファイルを作成することで、記事を作ることが出来ます。  
 
+また、`Next.js`のキャッシュ機能を利用し、できる限り`マークダウン→HTML`の変換回数が少なくなるようになっています。  
+**その影響で開発サーバーを立ち上げて記事を開いても、リロードしても反映されないことがあります。**  
+その場合は **スーパーリロード（force refresh / force reload）** を試してみてください。多分キャッシュが消えるはず。
+
 対応している記法は以下です
 - CommonMark
 - GitHub Flavored Markdown
     - CommonMark にはテーブル作れないので
 - HTML 埋め込み
 - シンタックスハイライト（shiki）
+
+追加で以下の機能を自前で実装しています
+- リンクカード
+    - `[]()`の場合はカッコの文字が優先されます
+    - URL を直接書いたらリンクカードになります
+- `<script>`の埋め込み
+- コードブロックのコピー
+- 画像の遅延読み込み（`loading="lazy"`）
 - 見出しに id 属性付与
 
-また、`Next.js`のキャッシュ機能を利用し、できる限り`マークダウン→HTML`の変換回数が少なくなるようになっています。  
-**その影響で開発サーバーを立ち上げて記事を開いても、リロードしても反映されないことがあります。**  
-その場合は **スーパーリロード（force refresh / force reload）** を試してみてください。多分キャッシュが消えるはず。
+#### Markdown を描画するコンポーネント
+`Markdown`から`HTML`にしたあと、できる限り自分で`JSX (HTML)`を描画するようになっています。  
+`<MarkdownRender/>`参照。
+
+期待通りに動いているか確認するテストコードが存在します。  
+`__test__`フォルダ参照。
+
+`vitest` + `testing-library/react` を利用しています。  
+以下のコマンドでテストコードを実行できます。
+
+```shell
+npm run test
+```
 
 ### 本番環境でビルドして動作確認をする
 本番環境でビルドして開発サーバーを立ち上げます。  
@@ -116,7 +138,7 @@ npm run deploy
 
 もし使わない場合は`Actions`の画面で無効にしたいワークフローを押して、`Disable workflow`を押すことで無効にできます。  
 
-![Imgur](https://imgur.com/Jm1V17f.png)
+![Imgur](https://i.imgur.com/Jm1V17f.png)
 
 ### Netlify で公開する
 必要なシークレットはこの2つです
@@ -126,7 +148,7 @@ npm run deploy
 | NETLIFY_AUTH_TOKEN | `Netlify のアカウント画面` >  `Applications` > `New access token`から生成する |
 | NETLIFY_SITE_ID    | `Netlify のサイト詳細画面` > `Site configuration` > `Site ID` をコピー        |
 
-![Imgur](https://imgur.com/4EeM4q4.png)
+![Imgur](https://i.imgur.com/4EeM4q4.png)
 
 詳しくは昔書いたのでそっち見てください：  
 https://takusan.negitoro.dev/posts/github_actions_netlify/
@@ -142,13 +164,16 @@ https://takusan.negitoro.dev/posts/github_actions_netlify/
 | AWS_ROLE                    | `IAM ロール`の`ARN`の値です                           |
 | AWS_S3_BACKET               | ビルド成果物を保存する`S3 バケット`の名前です         |
 
-![Imgur](https://imgur.com/nAFBOTS.png)
+![Imgur](https://i.imgur.com/nAFBOTS.png)
 
 詳しくは書いたので見てください：  
 https://takusan.negitoro.dev/posts/aws_sitatic_site_hosting/
 
 ## ファイル構造
 
+- `__test__`
+    - `vitest` + `testing-library/react` を使ったテストです
+    - 今のところマークダウンが描画されるかくらいしか見ていません
 - .github/workflows
     - GitHub Actions にやらせる作業を書いたファイルです
     - GitHub の Web 上で編集することをおすすめします

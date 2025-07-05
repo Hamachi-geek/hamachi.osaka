@@ -3,7 +3,6 @@ import NextLinkButton from "./NextLinkButton"
 import EnvironmentTool from "../src/EnvironmentTool"
 import OpenInBrowserIcon from "../public/icon/open_in_browser.svg"
 
-
 /** GitHubHistoryButton へ渡すデータ */
 type GitHubHistoryButtonProps = {
     /** ファイル名 */

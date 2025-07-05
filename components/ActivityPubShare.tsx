@@ -31,7 +31,7 @@ export default function ActivityPubShare({ title, url }: ActivityPubShareProps) 
                             // Enter / ボタン押した時に呼ばれる
                             // 新しいタブで開く
                             const shareUrl = `https://${serverName}/share?text=${encodeURIComponent(title)}\n${encodeURIComponent(url)}`
-                            window.open(shareUrl, '__blank','noopener')
+                            window.open(shareUrl, '__blank')
                         }} />
                     : <ActivityPubShareButton
                         onClick={() => setOpen(true)} />
@@ -73,7 +73,7 @@ function ActivityPubInputForm({ onClose, onSubmit }: ActivityPubInputFormProps) 
                     </IconParent>
                 </button>
 
-                <input
+                 <input
                     className="grow focus:outline-none bg-transparent text-content-text-light dark:text-content-text-dark w-40 border-b-2 border-b-content-primary-light dark:border-b-content-primary-dark"
                     placeholder="サーバーURLを入力"
                     onChange={(ev) => setServerName(ev.target.value)}

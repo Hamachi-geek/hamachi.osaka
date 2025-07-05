@@ -10,18 +10,30 @@ import DateCountText from "../../../components/DateCountText"
 import IconParent from "../../../components/IconParent"
 import EditIcon from "../../../public/icon/edit.svg"
 import ActivityPubShare from "../../../components/ActivityPubShare"
+import MarkdownRender from "../../../components/markdownrender/MarkdownRender"
+import Title from "../../../components/Title"
+import NextLinkButton from "../../../components/NextLinkButton"
+import ArrowBackIcon from "../../../public/icon/arrow_back.svg"
+import PrevNextNavigation from "../../../components/PrevNextNavigation"
+import RelatedBlogList from "../../../components/RelatedBlogList"
+import TownBar from "../../../components/townbar/TownBar"
 import { XShare } from "../../../components/XShare";
 
-// 部分的に修正した css
-import "../../../styles/css/content.css"
+
+/** 一度に取得する件数 */
+const BLOG_SIZE_LIMIT = 10
+
+/** 一度に取得する関連記事 */
+const MAX_RELATED_SIZE = 5
 
 /** 動的ルーティング */
 type PageProps = {
-    params: { blog: string }
+    params: Promise<{ blog: string }>
 }
 
 /** head に値を入れる */
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+    const params = await props.params;
     const markdownData = await ContentFolderManager.getBlogItem(params.blog)
     const ogpTitle = `${markdownData.title} - ${EnvironmentTool.SITE_NAME}`
     const ogpUrl = `${EnvironmentTool.BASE_URL}${markdownData.link}`
@@ -44,9 +56,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
  * 記事本文。
  * 反映されない場合はスーパーリロードしてみてください。
  */
-export default async function BlogDetailPage({ params }: PageProps) {
-    // サーバー側でロードする
+export default async function BlogDetailPage(props: PageProps) {
+    const params = await props.params;
+    // サーバー側で（ブラウザじゃなく Node.js ）ロードする
     const markdownData = await ContentFolderManager.getBlogItem(params.blog)
+    const backPostsPageNumber = await ContentFolderManager.findPostsPageNumber(markdownData.link, BLOG_SIZE_LIMIT)
 
     const ogpTitle = `${markdownData.title} - ${EnvironmentTool.SITE_NAME}`
     const ogpUrl = `${EnvironmentTool.BASE_URL}${markdownData.link}`
@@ -74,41 +88,61 @@ export default async function BlogDetailPage({ params }: PageProps) {
         </div>
     )
 
+    // max-w-6xl m-auto で横幅上限+真ん中
     return (
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-row">
+            <article className="flex flex-col p-4 max-w-6xl w-full m-auto space-y-4">
 
-            <h1 className="text-content-primary-light dark:text-content-primary-dark text-3xl">
-                {markdownData.title}
-            </h1>
-            <div>
-                <DateCountText
-                    timeTagTimeFormat={dateTimeFormat}
-                    dateTimeFormat={markdownData.createdAt}
-                    createdAtUnixTime={markdownData.createdAtUnixTime} />
+                <NextLinkButton
+                    size="small"
+                    variant="outlined"
+                    href={`/posts/page/${backPostsPageNumber}/`}
+                    startIcon={<ArrowBackIcon />}
+                    text="記事一覧に戻る" />
+
+                <Title title={markdownData.title} />
+
+                <div>
+                    <DateCountText
+                        timeTagTimeFormat={dateTimeFormat}
+                        dateTimeFormat={markdownData.createdAt}
+                        createdAtUnixTime={markdownData.createdAtUnixTime} />
                  <ChangeDateCountText
                     changedtimeTagTimeFormat={changedateTimeFormat}
                     changedateTimeFormat={markdownData.changedAt}
                     changedAtUnixTime={markdownData.changedAtUnixTime} />    
-                {textCountText}
+                    {textCountText}
+                </div>
+
+                <TagChipGroup tagList={markdownData.tags} />
+                {shareOrHistoryButton}
+
+                {/* 画面の幅が狭いときは記事始まる前に目次を置く */}
+                <ExpandTocList markdown={markdownData.markdown} />
+
+                {/* 画面の幅が広いときだけ目次を表示させる */}
+                <TocListLayout secondary={<LargeTocList markdown={markdownData.markdown} />}>
+                    <RoundedCornerBox rounded="large">
+                        <div className="p-4" data-pagefind-body="true">
+                            <MarkdownRender markdown={markdownData.markdown} />
+                        </div>
+                    </RoundedCornerBox>
+                </TocListLayout>
+
+                {/* 前後の記事と関連記事。回遊しやすいように */}
+                <div className="flex space-x-2 space-y-4 flex-col lg:flex-row">
+                    <PrevNextNavigation
+                        url={markdownData.link} />
+                    <RelatedBlogList
+                        url={markdownData.link}
+                        tags={markdownData.tags}
+                        maxSize={MAX_RELATED_SIZE} />
+                </div>
+            </article>
+
+            <div className="hidden 2xl:flex">
+                <TownBar />
             </div>
-
-            <TagChipGroup tagList={markdownData.tags} />
-            {shareOrHistoryButton}
-
-            {/* 画面の幅が狭いときは記事始まる前に目次を置く */}
-            <ExpandTocList tocDataList={markdownData.tocDataList} />
-
-            {/* 画面の幅が広いときだけ目次を表示させる */}
-            <TocListLayout secondary={<LargeTocList tocDataList={markdownData.tocDataList} />}>
-                <RoundedCornerBox rounded="large">
-                    <div className="p-4">
-                        <div
-                            data-pagefind-body
-                            className="content_div"
-                            dangerouslySetInnerHTML={{ __html: markdownData.html }} />
-                    </div>
-                </RoundedCornerBox>
-            </TocListLayout>
         </div>
     )
 }
