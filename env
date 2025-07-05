@@ -1,0 +1,13 @@
+# local じゃない 環境変数
+# ベースのURLを環境変数にしました
+SITE_BASE_URL=https://hamachi.osaka
+# サイト名
+SITE_NAME=はまちのホムペ
+# GitHubリポジトリ
+GITHUB_REPOSITORY_URL=https://github.com/Hamachi-geek/hamachi.osaka
+# Google アナリティクス (GA4) の 測定ID
+GA_TRACKING_ID=G-15MFVVVKQY
+# Google Search Console の所有権確認のための HTML タグの content の値
+GOOGLE_SEARCH_CONSOLE=2e-ztD6zJW2HIZR9x1Yr7qHaP1mZdemfv8rCh1z1YDU
+# 検索 API の URL。省略可
+# NEXT_PUBLIC_SEARCH_API_URL=http://localhost:8000/api/search
