@@ -1,7 +1,7 @@
 ---
 title: SUNMI V1s
 created_at: 2023-01-10
-changed_at: 2024-09-05
+changed_at: 2024-07-06
 ---
 
 # スペック

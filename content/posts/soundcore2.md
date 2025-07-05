@@ -1,7 +1,7 @@
 ---
 title: Anker SoundCore 2
 created_at: 2023-10-15
-changed_at: 2024-09-05
+changed_at: 2025-07-06
 ---
 
 # スペック

@@ -1,7 +1,7 @@
 ---
 title: CAT S22 Flip
 created_at: 2023-10-11
-changed_at: 2024-09-05
+changed_at: 2025-07-06
 ---
 
 # スペック
@@ -17,7 +17,8 @@ changed_at: 2024-09-05
 - Frequency Band
   - 4G:1/2/3/4/5/7/12/13/20/25/26/28/38/39/40/41/66/71
   - 3G:1/2/4/5/8/BC0/BC1/BC10
-  - GSM:850/900/1,800/1,900 <br>
+  - GSM:850/900/1,800/1,900
+
 ![S22 Flip](https://minio.zuiho.moe/media_attachments/files/112/324/048/128/337/086/original/2078d4c221164f3e.jpeg)
 
 # 概要
