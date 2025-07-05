@@ -52,7 +52,7 @@ export async function GET(_: Request, props: PageProps) {
         FileReadTool.readTextFile('public', 'icon', 'sell.svg'),
         // フォントファイル
         // styles/css/fonts にある ttf を見に行く
-        FileReadTool.readByteArray('styles', 'css', 'fonts', 'Koruri-Regular.ttf')
+        FileReadTool.readByteArray('styles', 'css', 'fonts', 'LINESeedJP_A_TTF_Rg.ttf')
     ])
 
     return new ImageResponse(
