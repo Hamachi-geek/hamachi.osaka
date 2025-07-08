@@ -13,3 +13,6 @@ changed_at: 2025-07-06
 
 # 概要
 　家の近所に楽天モバイル5G基地局が建ったので、ちょくちょく通信が止まるアパート共用ネットから解放されようと思い購入しました。NEC製基地局とならNEC製ルーターかなと…
+
+# 製品ページ
+https://www.necplatforms.co.jp/support/wimax/l12/index.html
