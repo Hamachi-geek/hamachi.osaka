@@ -57,12 +57,9 @@ class MarkdownParser {
         const title = matterResult.data['title'] as string
         // ライブラリ君が勝手にDateオブジェクトに変換してくれた模様
         const date = matterResult.data['created_at'] as Date
-        const date_change = matterResult.data['changed_at'] as Date
         // 誰もビルドマシンが日本語環境とは言っていない、ので日本語のローカルを指定する（Netlifyでビルドすると外国語環境なので日付がおかしくなる）
         const createdAt = date.toLocaleDateString('ja-JP')
-        const changedAt = date.toLocaleDateString('ja-JP')
         const tags = (matterResult.data['tags'] ?? []) as string[]
-        const changedAtUnixTime = date.getTime()
         const createdAtUnixTime = date.getTime()
         // 文字数カウント。
         // 正規表現でコードブロックを取り出して、その分の文字数を消す
@@ -73,8 +70,6 @@ class MarkdownParser {
             title: title,
             createdAt: createdAt,
             createdAtUnixTime: createdAtUnixTime,
-            changedAt: changedAt,
-            changedAtUnixTime: changedAtUnixTime,
             tags: tags,
             markdown: markdownContent,
             description: markdownContent.substring(0, 100),
@@ -138,15 +133,25 @@ class MarkdownParser {
     /**
      * unified の HTML AST から html を作成する
      * 
-     * @param ast {@see parseMarkdownToHtmlAst} の children
+     * @param hast {@see parseMarkdownToHtmlAst} の children
      * @returns HTML
      */
     static async buildHtmlFromHtmlAst(hast: RootContent) {
+        return this.buildHtmlFromHtmlAstList([hast])
+    }
+
+    /**
+     * unified の HTML AST の配列から html を作成する
+     * 
+     * @param hastList {@see parseMarkdownToHtmlAst} の children
+     * @returns HTML
+     */
+    static async buildHtmlFromHtmlAstList(hastList: RootContent[]) {
         const hastProcessor = unified()
             .use(rehypeRaw)
         const htmlProcessor = unified()
             .use(rehypeStringify)
-        const fixHast = await hastProcessor.run({ type: "root", children: [hast] })
+        const fixHast = await hastProcessor.run({ type: "root", children: hastList })
         const html = htmlProcessor.stringify(fixHast)
         return html.toString()
     }
