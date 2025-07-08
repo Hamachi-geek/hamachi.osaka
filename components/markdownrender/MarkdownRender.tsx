@@ -247,7 +247,7 @@ async function HtmlElementRender({ element }: HtmlElementRenderProps) {
         // 単発コード
         // 複数行は pre で全部やるので、ここに来ない
         case "code":
-            return <code className="px-2 font-(family-name:--koruri-font) rounded-md text-content-text-light dark:text-content-text-dark bg-gray-200 dark:bg-gray-800">{childrenJsx}</code>
+            return <code className="px-2 font-(family-name:--line-seed) rounded-md text-content-text-light dark:text-content-text-dark bg-gray-200 dark:bg-gray-800">{childrenJsx}</code>
 
         // script
         // noscript もついでに

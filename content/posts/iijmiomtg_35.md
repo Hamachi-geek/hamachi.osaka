@@ -2,7 +2,6 @@
 title: IIJmio meeting 35に参加してきました
 created_at: 2024-08-02
 changed_at: 2024-09-05
-description: ずっと参加したかったので参加できて嬉しいです
 tags:
   - 外出
   - ミーティング/カンファレンス

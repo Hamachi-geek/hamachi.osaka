@@ -1,7 +1,7 @@
 ---
 title: CAT S22 Flip Unbox
 created_at: 2023-06-04
-changed_at: 2024-09-05
+changed_at: 2025-07-09
 tags:
 - Android
 - ガラホ (Dumb Phone)

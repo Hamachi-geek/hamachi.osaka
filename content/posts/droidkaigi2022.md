@@ -1,7 +1,7 @@
 ---
 title: DroidKaigi 2022参加レポ
 created_at: 2023-02-08
-changed_at: 2024-09-05
+changed_at: 2024-07-09
 tags:
 - Android
 - イベント

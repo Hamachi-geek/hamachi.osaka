@@ -1,7 +1,9 @@
 ---
 title: Sony MDR-CD900ST
 created_at: 2023-10-11
-changed_at: 2025-07-06
+changed_at: 2025-07-09
+tags:
+- 所持品紹介
 ---
 
 # スペック

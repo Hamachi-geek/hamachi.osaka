@@ -1,8 +1,9 @@
 ---
 title: Speed Wi-Fi HOME 5G L11
 created_at: 2025-06-26
-changed_at: 2025-07-06
-description: Speed Wi-Fi HOME 5G L11の紹介
+changed_at: 2025-07-09
+tags:
+- 所持品紹介
 ---
 
 # スペック

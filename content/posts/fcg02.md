@@ -1,8 +1,9 @@
 ---
 title: FCNT arrows We2 FCG02
 created_at: 2024-09-10
-changed_at: 2025-07-06
-description: arrowsええぞ!
+changed_at: 2025-07-09
+tags:
+- 所持品紹介
 ---
 
 # スペック

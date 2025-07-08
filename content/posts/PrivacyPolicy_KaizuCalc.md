@@ -1,8 +1,7 @@
 ---
 title: プライバシーポリシー (KaizuCalc)
 created_at: 2025-02-13
-changed_at: 2024-02-13
-description: KaizuCalcのプライバシーポリシー
+changed_at: 2025-07-09
 tags:
 - プライバシーポリシー
 ---

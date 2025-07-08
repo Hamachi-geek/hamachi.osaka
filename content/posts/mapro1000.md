@@ -1,8 +1,9 @@
 ---
 title: Maestraudio MAPro1000
 created_at: 2024-09-15
-changed_at: 2025-07-06
-description: 色ミスった
+changed_at: 2025-07-09
+tags:
+- 所持品紹介
 ---
 
 # Specifications

@@ -1,7 +1,9 @@
 ---
 title: TASCAM US-1x2HR
 created_at: 2023-10-14
-changed_at: 2025-07-06
+changed_at: 2025-07-09
+tags:
+- 所持品紹介
 ---
 
 # スペック
