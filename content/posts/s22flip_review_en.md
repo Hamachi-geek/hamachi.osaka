@@ -5,9 +5,9 @@ changed_at: 2025-07-09
 tags:
 - Android
 - 海外端末
-- レビュー (Review)
-- ガラホ (Dumb Phone)
-- タフネス (Rugged Device)
+- レビュー
+- ガラホ
+- タフネス
 ---
 
 This time, I show you this cool flip phone, CAT S22 Flip.<br>

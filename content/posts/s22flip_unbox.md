@@ -4,10 +4,10 @@ created_at: 2023-04-15
 changed_at: 2025-07-09
 tags:
 - Android
-- ガラホ (Dumb Phone)
-- タフネス (Rugged Device)
-- 開封 (Unboxing)
-- アメリカ (Experience in The U.S.)
+- ガラホ
+- タフネス
+- 開封
+- アメリカ
 ---
 ![S22 Flip](https://i.imgur.com/uZvJMlE.jpg)<br>
 お久しぶりです。現在アメリカに留学中で、「これだけは買って帰りたい！」と考えていたガラホがあったので今回は開封とセットアップ、ファーストインプレッションで詳細レビューはまた後日したいと思います。

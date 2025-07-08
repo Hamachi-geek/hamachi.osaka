@@ -4,9 +4,9 @@ created_at: 2023-11-08
 changed_at: 2024-07-09
 tags:
 - Android
-- ガラホ (Dumb Phone)
-- タフネス (Rugged Device)
-- レビュー (Review)
+- ガラホ
+- タフネス
+- レビュー
 ---
  <img src="https://i.imgur.com/uZvJMlE.jpg" width="500px"><br>
 お久しぶりです。はまちです。早いもので７月に帰国してから4ヶ月ほどが経ち、CAT S22 Flipを使用開始してからも半年以上が経ちました。<br>今回はそれを長期使用して、どのように使用しているか、いいと思った点・気になった点についてお話しします

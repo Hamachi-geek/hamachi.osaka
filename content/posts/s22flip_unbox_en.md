@@ -4,10 +4,10 @@ created_at: 2023-06-04
 changed_at: 2025-07-09
 tags:
 - Android
-- ガラホ (Dumb Phone)
-- タフネス (Rugged Device)
-- 開封 (Unboxing)
-- アメリカ (Experience in The U.S.)
+- ガラホ
+- タフネス
+- 開封
+- アメリカ
 ---
 ![S22 Flip](https://i.imgur.com/uZvJMlE.jpg)<br>
 Hi! Today I will unbox the CAT S22 Flip, a dumb rugged phone. I bought this because I thought “I cannot go back to Japan without buying this phone while I’m studying abroad!” In this article, I unbox, set it up, and give a first-impression. I will write a specific review later. Please wait for it!
