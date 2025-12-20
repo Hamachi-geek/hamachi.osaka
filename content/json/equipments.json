@@ -19,13 +19,6 @@
             "purchase_date":"2024/11/24",
             "details": "/posts/x01a"
         },
-        
-        {
-            "name": "Xiaomi 14T Pro A402XM",
-            "purpose": "カメラ",
-            "purchase_date": "2024/12/7",
-            "details": "/posts/a402xm"
-        },
         {
             "name": "SEIKO 603SI",
             "purpose": "旅用携帯",
@@ -83,7 +76,7 @@
     ],
     "Audio": [
         {
-            "name": "Maestrauio MAPro1000",
+            "name": "Maestraudio MAPro1000",
             "purpose": "メインイヤホン",
             "purchase_date":"2024/7/6",
             "details": "/posts/mapro1000/"
