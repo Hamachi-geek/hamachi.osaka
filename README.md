@@ -7,10 +7,12 @@
 <img alt="Blog" src="https://minio.zuiho.moe/media_attachments/files/112/630/576/494/392/646/original/7bcc8598c34bbe41.png" height="512px">
 
 ## 使用技術
-- <img alt="type script" src="https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/TypeScript/TypeScript.png" width="512px">
-- <img alt="tailwind css" src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/tailwind%20css/Tailwindcss.png" width="512px">
+- <img alt="type script" src="https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/TypeScript/png/TypeScript.png" width="512px">
+- <img alt="tailwind css" src="hhttps://github.com/SAWARATSUKI/KawaiiLogos/blob/main/tailwind%20css/png/Tailwindcss.png" width="512px">
 - unified
 <p>Logo by SAWARATSUKI (@sawaratsuki1004)</p>
+
+[KawaiiLogos] (https://github.com/SAWARATSUKI/KawaiiLogos)
 
 ## 開発環境構築
 
