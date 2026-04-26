@@ -8,7 +8,7 @@ class EnvironmentTool {
     static BASE_URL = process.env.SITE_BASE_URL!
 
     /** サイト名 */
-    static SITE_NAME = process.env.SITE_NAME!
+    static SITE_NAME = "hamachi.osaka"
 
     /** GitHub リポジトリのURL */
     static REPOSITORY_URL = process.env.GITHUB_REPOSITORY_URL!
