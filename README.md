@@ -8,7 +8,7 @@
 
 ## 使用技術
 - <img alt="type script" src="https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/TypeScript/png/TypeScript.png" width="512px">
-- <img alt="tailwind css" src="hhttps://github.com/SAWARATSUKI/KawaiiLogos/blob/main/tailwind%20css/png/Tailwindcss.png" width="512px">
+- <img alt="tailwind css" src="https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/tailwind%20css/png/Tailwindcss.png" width="512px">
 - unified
 <p>Logo by SAWARATSUKI (@sawaratsuki1004)</p>
 
